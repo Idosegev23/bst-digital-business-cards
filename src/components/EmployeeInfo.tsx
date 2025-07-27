@@ -20,6 +20,13 @@ export default function EmployeeInfo({ employee }: EmployeeInfoProps) {
       <p className="employee-title">
         {employee.supportsBilingual ? t(employee.title) : employee.title}
       </p>
+      
+      <div className="about-bst">
+        <h3 className="about-title">אודות BST:</h3>
+        <p className="about-text">
+          קבוצת BST הינה קבוצת נדל"ן פרטית הפועלת כבר למעלה מ-50 שנה בתחומי יזמות, בניה והשקעות נדל"ן בארץ ובחו"ל.
+        </p>
+      </div>
     </div>
   )
 } 

@@ -10,17 +10,17 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    nameKey: "מערבה רחובות", 
-    descriptionKey: "פרויקט מגורים מתקדם ברחובות",
-    image: "/project2.jpg",
-    link: "https://www.maarava-bst.co.il/?utm_source=dcard&utm_medium=card&utm_campaign=dcard+maarava"
-  },
-  {
-    id: 3,
     nameKey: "רמברנדט 30 תל אביב",
     descriptionKey: "פרויקט בוטיק יוקרתי בלב תל אביב", 
     image: "/project3.jpg",
     link: "https://bst.co.il/project/rembrandt-30/"
+  },
+  {
+    id: 3,
+    nameKey: "מערבה רחובות", 
+    descriptionKey: "פרויקט מגורים מתקדם ברחובות",
+    image: "/project2.jpg",
+    link: "https://www.maarava-bst.co.il/?utm_source=dcard&utm_medium=card&utm_campaign=dcard+maarava"
   },
   {
     id: 4,
@@ -31,10 +31,10 @@ export const projects: Project[] = [
   },
   {
     id: 5,
-    nameKey: "CREATE קרית אתא",
-    descriptionKey: "פרויקט מגורים חדשני בקרית אתא",
-    image: "/project5.jpg",
-    link: "https://bst.co.il/project/create-calaniot/"
+    nameKey: "VIEW נצרת",
+    descriptionKey: "פרויקט מגורים מודרני בנצרת",
+    image: "/project7.jpg",
+    link: "https://bst.co.il/project/bst-view/"
   },
   {
     id: 6,
@@ -45,9 +45,9 @@ export const projects: Project[] = [
   },
   {
     id: 7,
-    nameKey: "VIEW נצרת",
-    descriptionKey: "פרויקט מגורים מודרני בנצרת",
-    image: "/project7.jpg",
-    link: "https://bst.co.il/project/bst-view/"
+    nameKey: "CREATE קרית אתא",
+    descriptionKey: "פרויקט מגורים חדשני בקרית אתא",
+    image: "/project5.jpg",
+    link: "https://bst.co.il/project/create-calaniot/"
   }
 ]; 
