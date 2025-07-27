@@ -100,7 +100,7 @@ export const employees: Employee[] = [
     id: 'eyal-torgeman',
     name: 'אייל תורג\'מן',
     title: 'מנהל בטיחות',
-    photo: '/employees/placeholder.svg',
+    photo: '/employees/eyal-torgeman.jpg',
     email: 'EyalT@bst.co.il',
     phone: '052-9246969',
     socialMedia: {
@@ -112,7 +112,7 @@ export const employees: Employee[] = [
     id: 'faar-feldman',
     name: 'פאר פלדמן',
     title: 'מהנדס ראשי, BUILDUP',
-    photo: '/employees/placeholder.svg',
+    photo: '/employees/faar-feldman.jpg',
     email: 'PeerF@buildup-eng.com',
     phone: '054-5625529',
     socialMedia: {
@@ -150,7 +150,7 @@ export const employees: Employee[] = [
     id: 'ira-tal',
     name: 'אירה טל',
     title: 'מנהלת כספים, BST ייזום',
-    photo: '/employees/placeholder.svg',
+    photo: '/employees/ira-tal.jpg',
     email: 'IraT@bst.co.il',
     phone: '050-7972225',
     socialMedia: {
@@ -162,7 +162,7 @@ export const employees: Employee[] = [
     id: 'itai-cherniker',
     name: 'איתי צ\'רניקר',
     title: 'מנהל מערכות מידע',
-    photo: '/employees/placeholder.svg',
+    photo: '/employees/itai-cherniker.jpg',
     email: 'itayc@bst.co.il',
     phone: '054-5206565',
     socialMedia: {
@@ -234,7 +234,7 @@ export const employees: Employee[] = [
     id: 'naama-gavra',
     name: 'נעמה גברא',
     title: 'אדריכלית חברה, BST ייזום',
-    photo: '/employees/placeholder.svg',
+    photo: '/employees/naama-gavra.jpg',
     email: 'NaamaG@bst.co.il',
     phone: '054-5447429',
     socialMedia: {
@@ -246,7 +246,7 @@ export const employees: Employee[] = [
     id: 'nadav-levy',
     name: 'נדב לוי',
     title: 'מנהל כספים וחשבות',
-    photo: '/employees/placeholder.svg',
+    photo: '/employees/nadav-levy.jpg',
     email: 'Nadavl@bst.co.il',
     phone: '054-5490053',
     socialMedia: {
@@ -258,7 +258,7 @@ export const employees: Employee[] = [
     id: 'orna-segev',
     name: 'אורנה שגב',
     title: 'סמנכ"ל מטה וחברה',
-    photo: '/employees/placeholder.svg',
+    photo: '/employees/orna-segev.jpg',
     email: 'OrnaS@bst.co.il',
     phone: '054-7679267',
     socialMedia: {
@@ -270,7 +270,7 @@ export const employees: Employee[] = [
     id: 'rafi-bisker',
     name: 'רפי ביסקר',
     title: 'יו"ר הקבוצה',
-    photo: '/employees/placeholder.svg',
+    photo: '/employees/rafi-bisker.jpg',
     email: 'Rafib@bst.co.il',
     phone: '052-5337030',
     socialMedia: {
@@ -282,7 +282,7 @@ export const employees: Employee[] = [
     id: 'samer-kardosh',
     name: 'סאמר כרדוש',
     title: 'מנכ"ל BST בנייה',
-    photo: '/employees/placeholder.svg',
+    photo: '/employees/samer-kardosh.jpg',
     email: 'samerk@bst.co.il',
     phone: '054-5656510',
     socialMedia: {
@@ -294,7 +294,7 @@ export const employees: Employee[] = [
     id: 'samir-mishael',
     name: 'סמיר מישעל',
     title: 'סמנכ"ל ביצוע BST בנייה',
-    photo: '/employees/placeholder.svg',
+    photo: '/employees/samir-mishael.jpg',
     email: 'samir_ms@bst.co.il',
     phone: '054-5656546',
     socialMedia: {
@@ -306,7 +306,7 @@ export const employees: Employee[] = [
     id: 'sharon-golan',
     name: 'שרון גולן',
     title: 'מנהל רכש',
-    photo: '/employees/placeholder.svg',
+    photo: '/employees/sharon-golan.jpg',
     email: 'SharonGo@bst.co.il',
     phone: '050-8780854',
     socialMedia: {
@@ -318,7 +318,7 @@ export const employees: Employee[] = [
     id: 'sivan-halali',
     name: 'סיוון הללי',
     title: 'סמנכ"לית מכירות ושיווק',
-    photo: '/employees/placeholder.svg',
+    photo: '/employees/sivan-halali.jpg',
     email: 'SivanH@bst.co.il',
     phone: '052-5992128',
     socialMedia: {
@@ -330,7 +330,7 @@ export const employees: Employee[] = [
     id: 'waseem-tannous',
     name: 'וסים טנוס',
     title: 'סמנכ"ל נכסים',
-    photo: '/employees/placeholder.svg',
+    photo: '/employees/waseem-tannous.jpg',
     email: 'waseem@bst.co.il',
     phone: '054-5656500',
     socialMedia: {
@@ -342,7 +342,7 @@ export const employees: Employee[] = [
     id: 'yaki-angel',
     name: 'יקי אנג\'ל',
     title: 'בקר איכות',
-    photo: '/employees/placeholder.svg',
+    photo: '/employees/yaki-angel.jpg',
     email: 'YakiE@bst.co.il',
     phone: '050-6345111',
     socialMedia: {
@@ -354,7 +354,7 @@ export const employees: Employee[] = [
     id: 'yonatan-gosher',
     name: 'יונתן גושר',
     title: 'סמנכ"ל תפעול, BUILDUP',
-    photo: '/employees/placeholder.svg',
+    photo: '/employees/yonatan-gosher.jpg',
     email: 'JonatanG@buildup-eng.com',
     phone: '054-7559298',
     socialMedia: {
