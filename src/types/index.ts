@@ -7,6 +7,7 @@ export interface Employee {
   phone?: string;
   whatsapp?: string;
   office?: string;
+  supportsBilingual?: boolean;
   socialMedia: {
     linkedin?: string;
     instagram?: string;

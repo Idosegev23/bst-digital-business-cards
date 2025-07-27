@@ -10,6 +10,7 @@ export const employees: Employee[] = [
     phone: '+1-416-245-0480',
     office: '+1-416-230-6637',
     whatsapp: '+1-416-245-0480',
+    supportsBilingual: true,
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       instagram: 'https://www.instagram.com/bstgroup_official',
@@ -73,6 +74,7 @@ export const employees: Employee[] = [
     title: 'סמנכ"ל פיתוח',
     photo: '/employees/elias-tannous.jpg',
     email: 'elias@bst.co.il',
+    supportsBilingual: true,
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -128,6 +130,7 @@ export const employees: Employee[] = [
     title: 'מנהל מערכות מידע',
     photo: '/employees/placeholder.svg',
     email: 'guy@bst.co.il',
+    supportsBilingual: true,
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'

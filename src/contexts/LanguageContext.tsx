@@ -22,13 +22,25 @@ const translations: Translations = {
   homepage: { he: 'דף הבית', en: 'Homepage' },
   ourTeam: { he: 'הצוות שלנו', en: 'Our Team' },
   viewCard: { he: 'צפה בכרטיס', en: 'View Card' },
+  
+  // Project translations
   'BSTOWERS פתח תקווה': { he: 'BSTOWERS פתח תקווה', en: 'BSTOWERS Petah Tikva' },
   'מערבה רחובות': { he: 'מערבה רחובות', en: 'Maarava Rehovot' },
   'רמברנדט 30 תל אביב': { he: 'רמברנדט 30 תל אביב', en: 'Rembrandt 30 Tel Aviv' },
   'ליליאן אנטוקלסקי, תל אביב': { he: 'ליליאן אנטוקלסקי, תל אביב', en: 'Lillian Antokolski, Tel Aviv' },
   'CREATE קרית אתא': { he: 'CREATE קרית אתא', en: 'CREATE Kiryat Ata' },
   'VIEW נצרת': { he: 'VIEW נצרת', en: 'VIEW Nazareth' },
-  'PRIME נוף הגליל': { he: 'PRIME נוף הגליל', en: 'PRIME Nof HaGalil' }
+  'PRIME נוף הגליל': { he: 'PRIME נוף הגליל', en: 'PRIME Nof HaGalil' },
+  
+  // Employee names and titles - bilingual employees
+  'עלא טנוס': { he: 'עלא טנוס', en: 'Alaa Tannous' },
+  'מנכ"ל BST GLOBAL': { he: 'מנכ"ל BST GLOBAL', en: 'CEO BST GLOBAL' },
+  
+  'אליאס טנוס': { he: 'אליאס טנוס', en: 'Elias Tannous' },
+  'סמנכ"ל פיתוח': { he: 'סמנכ"ל פיתוח', en: 'VP Development' },
+  
+  'גיא הלפרין': { he: 'גיא הלפרין', en: 'Guy Halperin' },
+  'מנהל מערכות מידע': { he: 'מנהל מערכות מידע', en: 'IT Systems Manager' }
 };
 
 interface LanguageContextType {
@@ -54,14 +66,12 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 
   return (
     <LanguageContext.Provider value={{ currentLanguage, toggleLanguage, t }}>
-      <div dir={currentLanguage.isRTL ? 'rtl' : 'ltr'} lang={currentLanguage.code}>
-        {children}
-      </div>
+      {children}
     </LanguageContext.Provider>
   );
 }
 
-export function useLanguage() {
+export function useLanguage(): LanguageContextType {
   const context = useContext(LanguageContext);
   if (context === undefined) {
     throw new Error('useLanguage must be used within a LanguageProvider');

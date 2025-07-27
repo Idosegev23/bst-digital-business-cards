@@ -22,7 +22,7 @@ export default function ClientBusinessCard({ employee, projects }: ClientBusines
       <div className="min-h-screen bg-gray-100">
         <div className="business-card-container">
           <GeometricBackground />
-          <LanguageToggle />
+          {employee.supportsBilingual && <LanguageToggle />}
           <Header />
 
           <div className="max-w-sm md:max-w-md lg:max-w-lg mx-auto relative z-10">
