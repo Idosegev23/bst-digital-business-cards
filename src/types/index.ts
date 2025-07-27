@@ -5,15 +5,15 @@ export interface Employee {
   photo: string;
   email: string;
   phone?: string;
-  office?: string;
   whatsapp?: string;
+  office?: string;
   socialMedia: {
     linkedin?: string;
     instagram?: string;
     facebook?: string;
     youtube?: string;
-    tiktok?: string;
     website?: string;
+    tiktok?: string;
   };
 }
 
