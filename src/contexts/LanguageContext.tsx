@@ -23,6 +23,13 @@ const translations: Translations = {
   ourTeam: { he: 'הצוות שלנו', en: 'Our Team' },
   viewCard: { he: 'צפה בכרטיס', en: 'View Card' },
   
+  // About BST section translations
+  'aboutBST': { he: 'אודות BST:', en: 'About BST:' },
+  'bstDescription': { 
+    he: 'קבוצת BST הינה קבוצת נדל"ן פרטית הפועלת כבר למעלה מ-50 שנה בתחומי יזמות, בניה והשקעות נדל"ן בארץ ובחו"ל.', 
+    en: 'BST Group is a private real estate company operating for over 50 years in the fields of development, construction and real estate investments in Israel and abroad.' 
+  },
+  
   // Project translations
   'BSTOWERS פתח תקווה': { he: 'BSTOWERS פתח תקווה', en: 'BSTOWERS Petah Tikva' },
   'מערבה רחובות': { he: 'מערבה רחובות', en: 'Maarava Rehovot' },

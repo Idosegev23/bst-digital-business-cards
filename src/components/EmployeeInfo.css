@@ -22,6 +22,12 @@
   backdrop-filter: blur(10px);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: left;
+}
+
+/* RTL support for Hebrew */
+[dir="rtl"] .about-bst {
+  text-align: right;
 }
 
 .about-title {
@@ -36,4 +42,16 @@
   color: rgba(60, 64, 54, 0.9);
   line-height: 1.6;
   text-align: justify;
+}
+
+/* Responsive font sizing */
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 0.9rem;
+  }
+  
+  .about-text {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
 } 

@@ -22,9 +22,9 @@ export default function EmployeeInfo({ employee }: EmployeeInfoProps) {
       </p>
       
       <div className="about-bst">
-        <h3 className="about-title">אודות BST:</h3>
+        <h3 className="about-title">{t('aboutBST')}</h3>
         <p className="about-text">
-          קבוצת BST הינה קבוצת נדל"ן פרטית הפועלת כבר למעלה מ-50 שנה בתחומי יזמות, בניה והשקעות נדל"ן בארץ ובחו"ל.
+          {t('bstDescription')}
         </p>
       </div>
     </div>
