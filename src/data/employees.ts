@@ -23,10 +23,10 @@ export const employees: Employee[] = [
   {
     id: 'amir-marciano',
     name: 'אמיר מרציאנו',
-    title: 'מנהל חטיבת נדל"ן',
+    title: 'מנכ"ל BUILDUP',
     photo: '/employees/amir-marciano.png',
-    email: 'amir@bst.co.il',
-    phone: '+972-50-123-4567',
+    email: 'amir@buildup-eng.com',
+    phone: '054-7771065',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       instagram: 'https://www.instagram.com/bstgroup_official',
@@ -36,10 +36,11 @@ export const employees: Employee[] = [
   },
   {
     id: 'assaf-simon',
-    name: 'אסף שמעון',
-    title: 'מנהל פרויקטים',
+    name: 'אסף סימון',
+    title: 'מנכ"ל BST ייזום',
     photo: '/employees/asaf-simon.jpg',
-    email: 'asaf@bst.co.il',
+    email: 'AssafS@bst.co.il',
+    phone: '050-7248412',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -48,9 +49,10 @@ export const employees: Employee[] = [
   {
     id: 'einat-shachar-yatziv',
     name: 'עינת שחר יציב',
-    title: 'מנהלת שיווק',
+    title: 'סמנכ"לית משאבי אנוש',
     photo: '/employees/einat-shachar-yatziv.jpg',
-    email: 'einat@bst.co.il',
+    email: 'EinatS@bst.co.il',
+    phone: '050-2204177',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       instagram: 'https://www.instagram.com/bstgroup_official',
@@ -59,10 +61,11 @@ export const employees: Employee[] = [
   },
   {
     id: 'eitan-sadan',
-    name: 'איתן שדן',
-    title: 'מנהל פיתוח',
+    name: 'איתן סדן',
+    title: 'סמנכ"ל התחדשות עירונית',
     photo: '/employees/eitan-sadan.jpg',
-    email: 'eitan@bst.co.il',
+    email: 'EitanSa@bst.co.il',
+    phone: '054-6735559',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -71,9 +74,10 @@ export const employees: Employee[] = [
   {
     id: 'elias-tannous',
     name: 'אליאס טנוס',
-    title: 'סמנכ"ל פיתוח',
+    title: 'מנכ"ל',
     photo: '/employees/elias-tannous.jpg',
     email: 'elias@bst.co.il',
+    phone: '054-5656565',
     supportsBilingual: true,
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
@@ -83,9 +87,10 @@ export const employees: Employee[] = [
   {
     id: 'eran-confino',
     name: 'ערן קונפינו',
-    title: 'מנהל מכירות',
+    title: 'משנה למנכ"ל',
     photo: '/employees/eran-confino.jpg',
-    email: 'eran@bst.co.il',
+    email: 'Erank@bst.co.il',
+    phone: '052-2750832',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -93,10 +98,11 @@ export const employees: Employee[] = [
   },
   {
     id: 'eyal-torgeman',
-    name: 'איל תורג\'מן',
-    title: 'מנהל תפעול',
+    name: 'אייל תורג\'מן',
+    title: 'מנהל בטיחות',
     photo: '/employees/placeholder.svg',
-    email: 'eyal@bst.co.il',
+    email: 'EyalT@bst.co.il',
+    phone: '052-9246969',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -104,10 +110,11 @@ export const employees: Employee[] = [
   },
   {
     id: 'faar-feldman',
-    name: 'פער פלדמן',
-    title: 'מנהל טכנולוגיות',
+    name: 'פאר פלדמן',
+    title: 'מהנדס ראשי, BUILDUP',
     photo: '/employees/placeholder.svg',
-    email: 'faar@bst.co.il',
+    email: 'PeerF@buildup-eng.com',
+    phone: '054-5625529',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -115,10 +122,11 @@ export const employees: Employee[] = [
   },
   {
     id: 'ghadir-tannous',
-    name: 'גאדיר טנוס',
-    title: 'מנהלת משאבי אנוש',
+    name: 'גדיר טנוס',
+    title: 'מנהלת תחום חוזים והתקשרויות',
     photo: '/employees/ghadir-tannous.png',
     email: 'ghadir@bst.co.il',
+    phone: '054-565-6551',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -127,9 +135,11 @@ export const employees: Employee[] = [
   {
     id: 'guy-halperin',
     name: 'גיא הלפרין',
-    title: 'מנהל מערכות מידע',
+    title: 'CEO BST England',
     photo: '/employees/placeholder.svg',
-    email: 'guy@bst.co.il',
+    email: 'GuyH@bst.co.il',
+    phone: '052 5800070',
+    office: '+44 7385 840647',
     supportsBilingual: true,
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
@@ -139,9 +149,10 @@ export const employees: Employee[] = [
   {
     id: 'ira-tal',
     name: 'אירה טל',
-    title: 'מנהלת כספים',
+    title: 'מנהלת כספים, BST ייזום',
     photo: '/employees/placeholder.svg',
-    email: 'ira@bst.co.il',
+    email: 'IraT@bst.co.il',
+    phone: '050-7972225',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -150,9 +161,10 @@ export const employees: Employee[] = [
   {
     id: 'itai-cherniker',
     name: 'איתי צ\'רניקר',
-    title: 'מנהל תחזוקה',
+    title: 'מנהל מערכות מידע',
     photo: '/employees/placeholder.svg',
-    email: 'itai@bst.co.il',
+    email: 'itayc@bst.co.il',
+    phone: '054-5206565',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -161,9 +173,10 @@ export const employees: Employee[] = [
   {
     id: 'jamil-bassol',
     name: 'ג\'מיל בסול',
-    title: 'מנהל בנייה',
+    title: 'סמנכ"ל תפעול',
     photo: '/employees/jamil-bassol.jpg',
     email: 'jamil@bst.co.il',
+    phone: '054-5656519',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -172,9 +185,10 @@ export const employees: Employee[] = [
   {
     id: 'lilach-grimberg',
     name: 'לילך גרימברג',
-    title: 'מנהלת קשרי לקוחות',
+    title: 'סמנכ"לית ויועצת משפטית',
     photo: '/employees/lilach-grimberg.jpg',
-    email: 'lilach@bst.co.il',
+    email: 'LilachG@bst.co.il',
+    phone: '052-3665729',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -183,9 +197,10 @@ export const employees: Employee[] = [
   {
     id: 'lior-uchman',
     name: 'ליאור אוכמן',
-    title: 'מנהל רכש',
+    title: 'מהנדס ראשי מגורים, BST בנייה',
     photo: '/employees/lior-uchman.jpg',
-    email: 'lior@bst.co.il',
+    email: 'LiorO@bst.co.il',
+    phone: '054-2476679',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -193,10 +208,11 @@ export const employees: Employee[] = [
   },
   {
     id: 'mashkit-faar',
-    name: 'משקית פער',
-    title: 'מנהלת עיצוב',
+    name: 'משכית פאר',
+    title: 'מנהלת מטה הנדסה, BST בנייה',
     photo: '/employees/mashkit-faar.jpg',
-    email: 'mashkit@bst.co.il',
+    email: 'MaskitP@bst.co.il',
+    phone: '0543509878',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -205,9 +221,10 @@ export const employees: Employee[] = [
   {
     id: 'micha-ben-nun',
     name: 'מיכה בן נון',
-    title: 'מנהל ביטחון',
+    title: 'סמנכ"ל הנדסה, BST ייזום',
     photo: '/employees/micha-ben-nun.jpg',
-    email: 'micha@bst.co.il',
+    email: 'michab@bst.co.il',
+    phone: '054-6305050',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -215,10 +232,11 @@ export const employees: Employee[] = [
   },
   {
     id: 'naama-gavra',
-    name: 'נעמה גברה',
-    title: 'מנהלת מוקד',
+    name: 'נעמה גברא',
+    title: 'אדריכלית חברה, BST ייזום',
     photo: '/employees/placeholder.svg',
-    email: 'naama@bst.co.il',
+    email: 'NaamaG@bst.co.il',
+    phone: '054-5447429',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -227,9 +245,10 @@ export const employees: Employee[] = [
   {
     id: 'nadav-levy',
     name: 'נדב לוי',
-    title: 'מנהל IT',
+    title: 'מנהל כספים וחשבות',
     photo: '/employees/placeholder.svg',
-    email: 'nadav@bst.co.il',
+    email: 'Nadavl@bst.co.il',
+    phone: '054-5490053',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -238,9 +257,10 @@ export const employees: Employee[] = [
   {
     id: 'orna-segev',
     name: 'אורנה שגב',
-    title: 'מנהלת הנהלת חשבונות',
+    title: 'סמנכ"ל מטה וחברה',
     photo: '/employees/placeholder.svg',
-    email: 'orna@bst.co.il',
+    email: 'OrnaS@bst.co.il',
+    phone: '054-7679267',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -249,9 +269,10 @@ export const employees: Employee[] = [
   {
     id: 'rafi-bisker',
     name: 'רפי ביסקר',
-    title: 'מנהל לוגיסטיקה',
+    title: 'יו"ר הקבוצה',
     photo: '/employees/placeholder.svg',
-    email: 'rafi@bst.co.il',
+    email: 'Rafib@bst.co.il',
+    phone: '052-5337030',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -259,10 +280,11 @@ export const employees: Employee[] = [
   },
   {
     id: 'samer-kardosh',
-    name: 'סאמר קרדוש',
-    title: 'מנהל אתר',
+    name: 'סאמר כרדוש',
+    title: 'מנכ"ל BST בנייה',
     photo: '/employees/placeholder.svg',
-    email: 'samer@bst.co.il',
+    email: 'samerk@bst.co.il',
+    phone: '054-5656510',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -271,9 +293,10 @@ export const employees: Employee[] = [
   {
     id: 'samir-mishael',
     name: 'סמיר מישעל',
-    title: 'מנהל הנדסה',
+    title: 'סמנכ"ל ביצוע BST בנייה',
     photo: '/employees/placeholder.svg',
-    email: 'samir@bst.co.il',
+    email: 'samir_ms@bst.co.il',
+    phone: '054-5656546',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -282,9 +305,10 @@ export const employees: Employee[] = [
   {
     id: 'sharon-golan',
     name: 'שרון גולן',
-    title: 'מנהלת משפטית',
+    title: 'מנהל רכש',
     photo: '/employees/placeholder.svg',
-    email: 'sharon@bst.co.il',
+    email: 'SharonGo@bst.co.il',
+    phone: '050-8780854',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -292,10 +316,11 @@ export const employees: Employee[] = [
   },
   {
     id: 'sivan-halali',
-    name: 'סיון הללי',
-    title: 'מנהלת רווחה',
+    name: 'סיוון הללי',
+    title: 'סמנכ"לית מכירות ושיווק',
     photo: '/employees/placeholder.svg',
-    email: 'sivan@bst.co.il',
+    email: 'SivanH@bst.co.il',
+    phone: '052-5992128',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -304,9 +329,10 @@ export const employees: Employee[] = [
   {
     id: 'waseem-tannous',
     name: 'וסים טנוס',
-    title: 'מנהל אזור',
+    title: 'סמנכ"ל נכסים',
     photo: '/employees/placeholder.svg',
     email: 'waseem@bst.co.il',
+    phone: '054-5656500',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -315,9 +341,10 @@ export const employees: Employee[] = [
   {
     id: 'yaki-angel',
     name: 'יקי אנג\'ל',
-    title: 'מנהל חוזים',
+    title: 'בקר איכות',
     photo: '/employees/placeholder.svg',
-    email: 'yaki@bst.co.il',
+    email: 'YakiE@bst.co.il',
+    phone: '050-6345111',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'
@@ -326,9 +353,10 @@ export const employees: Employee[] = [
   {
     id: 'yonatan-gosher',
     name: 'יונתן גושר',
-    title: 'מנהל איכות',
+    title: 'סמנכ"ל תפעול, BUILDUP',
     photo: '/employees/placeholder.svg',
-    email: 'yonatan@bst.co.il',
+    email: 'JonatanG@buildup-eng.com',
+    phone: '054-7559298',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bst.co.il/'

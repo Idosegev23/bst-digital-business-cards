@@ -37,10 +37,10 @@ const translations: Translations = {
   'מנכ"ל BST GLOBAL': { he: 'מנכ"ל BST GLOBAL', en: 'CEO BST GLOBAL' },
   
   'אליאס טנוס': { he: 'אליאס טנוס', en: 'Elias Tannous' },
-  'סמנכ"ל פיתוח': { he: 'סמנכ"ל פיתוח', en: 'VP Development' },
+  'מנכ"ל': { he: 'מנכ"ל', en: 'CEO' },
   
   'גיא הלפרין': { he: 'גיא הלפרין', en: 'Guy Halperin' },
-  'מנהל מערכות מידע': { he: 'מנהל מערכות מידע', en: 'IT Systems Manager' }
+  'CEO BST England': { he: 'CEO BST England', en: 'CEO BST England' }
 };
 
 interface LanguageContextType {
