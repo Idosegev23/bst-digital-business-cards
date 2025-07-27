@@ -1,0 +1,120 @@
+{
+  "rewrites": [
+    {
+      "source": "/ala-tannous",
+      "destination": "/ala-tannous"
+    },
+    {
+      "source": "/amir-marciano", 
+      "destination": "/amir-marciano"
+    },
+    {
+      "source": "/assaf-simon",
+      "destination": "/assaf-simon"
+    },
+    {
+      "source": "/einat-shachar-yatziv",
+      "destination": "/einat-shachar-yatziv"
+    },
+    {
+      "source": "/eitan-sadan",
+      "destination": "/eitan-sadan"
+    },
+    {
+      "source": "/elias-tannous",
+      "destination": "/elias-tannous"
+    },
+    {
+      "source": "/eran-confino",
+      "destination": "/eran-confino"
+    },
+    {
+      "source": "/eyal-torgeman",
+      "destination": "/eyal-torgeman"
+    },
+    {
+      "source": "/faar-feldman",
+      "destination": "/faar-feldman"
+    },
+    {
+      "source": "/ghadir-tannous",
+      "destination": "/ghadir-tannous"
+    },
+    {
+      "source": "/guy-halperin",
+      "destination": "/guy-halperin"
+    },
+    {
+      "source": "/ira-tal",
+      "destination": "/ira-tal"
+    },
+    {
+      "source": "/itai-cherniker",
+      "destination": "/itai-cherniker"
+    },
+    {
+      "source": "/jamil-bassol",
+      "destination": "/jamil-bassol"
+    },
+    {
+      "source": "/lilach-grimberg",
+      "destination": "/lilach-grimberg"
+    },
+    {
+      "source": "/lior-uchman",
+      "destination": "/lior-uchman"
+    },
+    {
+      "source": "/mashkit-faar",
+      "destination": "/mashkit-faar"
+    },
+    {
+      "source": "/micha-ben-nun",
+      "destination": "/micha-ben-nun"
+    },
+    {
+      "source": "/naama-gavra",
+      "destination": "/naama-gavra"
+    },
+    {
+      "source": "/nadav-levy",
+      "destination": "/nadav-levy"
+    },
+    {
+      "source": "/orna-segev",
+      "destination": "/orna-segev"
+    },
+    {
+      "source": "/rafi-bisker",
+      "destination": "/rafi-bisker"
+    },
+    {
+      "source": "/samer-kardosh",
+      "destination": "/samer-kardosh"
+    },
+    {
+      "source": "/samir-mishael",
+      "destination": "/samir-mishael"
+    },
+    {
+      "source": "/sharon-golan",
+      "destination": "/sharon-golan"
+    },
+    {
+      "source": "/sivan-halali",
+      "destination": "/sivan-halali"
+    },
+    {
+      "source": "/waseem-tannous",
+      "destination": "/waseem-tannous"
+    },
+    {
+      "source": "/yaki-angel",
+      "destination": "/yaki-angel"
+    },
+    {
+      "source": "/yonatan-gosher",
+      "destination": "/yonatan-gosher"
+    }
+  ]
+} 

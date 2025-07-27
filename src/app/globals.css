@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'FbParking';
+  src: url('/fonts/FbParking-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FbParking';
+  src: url('/fonts/FbParking-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FbParking';
+  src: url('/fonts/FbParking-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FbParking';
+  src: url('/fonts/FbParking-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FbParkingEng';
+  src: url('/fonts/FbParkingEng-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FbParkingEng';
+  src: url('/fonts/FbParkingEng-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FbParkingEng';
+  src: url('/fonts/FbParkingEng-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FbParkingEng';
+  src: url('/fonts/FbParkingEng-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --card-bg: #e5e5d6;
+  --card-header: #454a3f;
+  --card-accent: #454a3f;
+  --font-hebrew: 'FbParking', system-ui, -apple-system, sans-serif;
+  --font-english: 'FbParkingEng', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Language-specific font settings */
+[lang="he"] {
+  font-family: var(--font-hebrew);
+}
+
+[lang="en"] {
+  font-family: var(--font-english);
+}
+
+body {
+  background: #f3f4f6;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.business-card-container {
+  background: var(--card-bg);
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Homepage specific styles */
+.homepage-container {
+  background: linear-gradient(135deg, #f3f4f6 0%, #e5e5d6 100%);
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Desktop responsive - limit card width */
+@media (min-width: 768px) {
+  .business-card-container {
+    max-width: 28rem;
+    margin: 0 auto;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (min-width: 1024px) {
+  .business-card-container {
+    max-width: 32rem;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+} 

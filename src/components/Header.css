@@ -1,0 +1,51 @@
+.header {
+  background-color: var(--card-header);
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0 0 80px 0;
+  position: relative;
+  z-index: 10;
+}
+
+.header-container {
+  max-width: 24rem;
+  margin: 0 auto;
+}
+
+.header-logo {
+  height: 3rem;
+  margin: 0 auto;
+}
+
+/* Desktop responsive */
+@media (min-width: 768px) {
+  .header {
+    max-width: 28rem;
+    margin: 0 auto;
+    padding: 1.25rem;
+  }
+  
+  .header-container {
+    max-width: 26rem;
+  }
+  
+  .header-logo {
+    height: 3.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    max-width: 32rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+  
+  .header-container {
+    max-width: 30rem;
+  }
+  
+  .header-logo {
+    height: 4rem;
+  }
+} 

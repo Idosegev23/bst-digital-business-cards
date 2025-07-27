@@ -1,0 +1,16 @@
+.employee-info {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.employee-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--card-accent);
+  margin-bottom: 0.5rem;
+}
+
+.employee-title {
+  font-size: 1rem;
+  color: rgba(60, 64, 54, 0.8);
+} 

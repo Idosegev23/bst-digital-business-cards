@@ -1,0 +1,125 @@
+.geometric-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* Desktop responsive - limit background to card area */
+@media (min-width: 768px) {
+  .geometric-background {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 28rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .geometric-background {
+    width: 32rem;
+  }
+}
+
+.shape {
+  position: absolute;
+  opacity: 0.1;
+  border: 2px solid var(--card-accent);
+}
+
+/* Large circle top right */
+.circle-1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  top: 10%;
+  right: -50px;
+}
+
+/* Medium circle center left */
+.circle-2 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  top: 40%;
+  left: -30px;
+}
+
+/* Small circle bottom right */
+.circle-3 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  bottom: 20%;
+  right: 20px;
+}
+
+/* Very large circle background */
+.circle-4 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  top: -100px;
+  left: -100px;
+  opacity: 0.05;
+}
+
+/* Vertical line right */
+.line-1 {
+  width: 2px;
+  height: 100vh;
+  border-radius: 0;
+  border: none;
+  background: var(--card-accent);
+  right: 15%;
+  top: 0;
+  opacity: 0.08;
+}
+
+/* Horizontal line center */
+.line-2 {
+  width: 100vw;
+  height: 2px;
+  border-radius: 0;
+  border: none;
+  background: var(--card-accent);
+  left: 0;
+  top: 50%;
+  opacity: 0.08;
+}
+
+/* Quarter circle top left */
+.quarter-circle-1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 0 0 150px 0;
+  border-top: none;
+  border-left: none;
+  top: 0;
+  left: 0;
+}
+
+/* Quarter circle bottom left */
+.quarter-circle-2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px 0 0 0;
+  border-bottom: none;
+  border-right: none;
+  bottom: 10%;
+  left: 0;
+}
+
+/* Quarter circle bottom right corner */
+.quarter-circle-3 {
+  width: 120px;
+  height: 120px;
+  border-radius: 0 0 0 120px;
+  border-top: none;
+  border-right: none;
+  bottom: 0;
+  right: 0;
+} 
