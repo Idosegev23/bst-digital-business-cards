@@ -15,7 +15,7 @@ const translations: Translations = {
   phone: { he: 'טלפון', en: 'Phone' },
   office: { he: 'משרד', en: 'Office' },
   whatsapp: { he: 'וואטסאפ', en: 'WhatsApp' },
-  downloadVCard: { he: '', en: 'Download VCard' },
+  downloadVCard: { he: 'להורדה לנייד', en: 'Download to Mobile' },
   projects: { he: 'הפרויקטים שלנו', en: 'Our Projects' },
   contactInfo: { he: 'פרטי התקשרות', en: 'Contact Information' },
   socialMedia: { he: 'רשתות חברתיות', en: 'Social Media' },
@@ -36,6 +36,10 @@ const translations: Translations = {
   'מייל': { he: 'מייל', en: 'Email' },
   'SMS': { he: 'SMS', en: 'SMS' },
 
+  // Language toggle
+  'switchToEnglish': { he: 'Switch to English', en: 'עבור לעברית' },
+  'languageCode': { he: 'EN', en: 'עב' },
+
   // Project translations
   'BSTOWERS פתח תקווה': { he: 'BSTOWERS פתח תקווה', en: 'BSTOWERS Petah Tikva' },
   'מערבה רחובות': { he: 'מערבה רחובות', en: 'Maarava Rehovot' },
@@ -52,8 +56,32 @@ const translations: Translations = {
   'אליאס טנוס': { he: 'אליאס טנוס', en: 'Elias Tannous' },
   'מנכ"ל': { he: 'מנכ"ל', en: 'CEO' },
   
+  'אמיר מרציאנו': { he: 'אמיר מרציאנו', en: 'Amir Marciano' },
+  'מנכ"ל BUILDUP': { he: 'מנכ"ל BUILDUP', en: 'CEO BUILDUP' },
+  
+  'אסף סימון': { he: 'אסף סימון', en: 'Assaf Simon' },
+  'מנכ"ל BST ייזום': { he: 'מנכ"ל BST ייזום', en: 'CEO BST Development' },
+  
+  'אורנה שגב': { he: 'אורנה שגב', en: 'Orna Segev' },
+  'סמנכ"ל מטה וחברה': { he: 'סמנכ"ל מטה וחברה', en: 'Deputy CEO Operations & Company' },
+  
+  'ערן קונפינו': { he: 'ערן קונפינו', en: 'Eran Confino' },
+  'משנה למנכ"ל': { he: 'משנה למנכ"ל', en: 'Deputy CEO' },
+  
   'גיא הלפרין': { he: 'גיא הלפרין', en: 'Guy Halperin' },
-  'CEO BST England': { he: 'CEO BST England', en: 'CEO BST England' }
+  'CEO BST England': { he: 'CEO BST England', en: 'CEO BST England' },
+  
+  'רפי ביסקר': { he: 'רפי ביסקר', en: 'Rafi Bisker' },
+  'יו"ר הקבוצה': { he: 'יו"ר הקבוצה', en: 'Chairman of the Group' },
+  
+  'סאמר כרדוש': { he: 'סאמר כרדוש', en: 'Samer Kardosh' },
+  'מנכ"ל BST בנייה': { he: 'מנכ"ל BST בנייה', en: 'CEO BST Construction' },
+  
+  'וסים טנוס': { he: 'וסים טנוס', en: 'Wasseem Tannous' },
+  'סמנכ"ל נכסים': { he: 'סמנכ"ל נכסים', en: 'Deputy CEO Real Estate' },
+  
+  'גדיר טנוס': { he: 'גדיר טנוס', en: 'Ghadir Tannous' },
+  'מנהלת תחום חוזים והתקשרויות': { he: 'מנהלת תחום חוזים והתקשרויות', en: 'Contracts & Procurement Manager' }
 };
 
 interface LanguageContextType {

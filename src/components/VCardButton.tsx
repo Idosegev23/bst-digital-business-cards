@@ -45,7 +45,7 @@ export default function VCardButton({ employee }: VCardButtonProps) {
       onClick={generateVCard}
     >
       <Download size={20} />
-      <span>להורדה לנייד</span>
+      <span>{t('downloadVCard')}</span>
     </button>
   )
 } 

@@ -4,15 +4,15 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import './LanguageToggle.css';
 
 export default function LanguageToggle() {
-  const { currentLanguage, toggleLanguage } = useLanguage();
+  const { currentLanguage, toggleLanguage, t } = useLanguage();
 
   return (
     <button 
       className="language-toggle" 
       onClick={toggleLanguage}
-      title={currentLanguage.code === 'he' ? 'Switch to English' : 'עבור לעברית'}
+      title={t('switchToEnglish')}
     >
-      {currentLanguage.code === 'he' ? 'EN' : 'עב'}
+      {t('languageCode')}
     </button>
   );
 } 

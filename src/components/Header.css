@@ -13,7 +13,7 @@
 }
 
 .header-logo {
-  height: 2.25rem;
+  height: 1.75rem;
   margin: 0 auto;
 }
 
@@ -30,7 +30,7 @@
   }
   
   .header-logo {
-    height: 2.625rem;
+    height: 2rem;
   }
 }
 
@@ -46,6 +46,6 @@
   }
   
   .header-logo {
-    height: 3rem;
+    height: 2.25rem;
   }
 } 
