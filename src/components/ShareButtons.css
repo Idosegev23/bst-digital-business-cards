@@ -1,0 +1,69 @@
+.share-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+  padding: 0 1rem;
+}
+
+.share-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  background: transparent;
+  color: rgba(69, 74, 63, 0.6);
+  text-decoration: none;
+  border-radius: 50%;
+  border: 1px solid rgba(69, 74, 63, 0.2);
+  transition: all 0.2s ease;
+  width: 40px;
+  height: 40px;
+  box-shadow: none;
+}
+
+.share-button:hover {
+  background: rgba(69, 74, 63, 0.05);
+  color: var(--card-accent);
+  border-color: rgba(69, 74, 63, 0.3);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(69, 74, 63, 0.15);
+}
+
+.share-button svg {
+  transition: all 0.2s ease;
+}
+
+/* כל הכפתורים בעיצוב אחיד ועדין */
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .share-buttons-container {
+    gap: 0.5rem;
+  }
+  
+  .share-button {
+    width: 36px;
+    height: 36px;
+    padding: 0.4rem;
+  }
+  
+  .share-button svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .share-button {
+    width: 32px;
+    height: 32px;
+    padding: 0.35rem;
+  }
+  
+  .share-button svg {
+    width: 14px;
+    height: 14px;
+  }
+} 

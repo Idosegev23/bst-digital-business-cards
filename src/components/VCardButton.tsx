@@ -21,8 +21,8 @@ export default function VCardButton({ employee }: VCardButtonProps) {
       `TITLE:${employee.title}`,
       `ORG:BST Global`,
       `EMAIL:${employee.email}`,
-      employee.phone ? `TEL;TYPE=WORK:${employee.phone}` : '',
-      employee.office ? `TEL;TYPE=OFFICE:${employee.office}` : '',
+      employee.phone ? `TEL;TYPE=WORK:${Array.isArray(employee.phone) ? employee.phone[0] : employee.phone}` : '',
+      Array.isArray(employee.phone) && employee.phone[1] ? `TEL;TYPE=OFFICE:${employee.phone[1]}` : '',
       employee.socialMedia.website ? `URL:${employee.socialMedia.website}` : '',
       'END:VCARD'
     ].filter(line => line).join('\r\n');
@@ -45,7 +45,7 @@ export default function VCardButton({ employee }: VCardButtonProps) {
       onClick={generateVCard}
     >
       <Download size={20} />
-      <span>{t('downloadVCard')}</span>
+      <span>להורדה לנייד</span>
     </button>
   )
 } 

@@ -8,6 +8,8 @@ import EmployeeInfo from '@/components/EmployeeInfo';
 import SocialMediaGrid from '@/components/SocialMediaGrid';
 import VCardButton from '@/components/VCardButton';
 import ProjectsGrid from '@/components/ProjectsGrid';
+import AboutBST from '@/components/AboutBST';
+import ShareButtons from '@/components/ShareButtons';
 import GeometricBackground from '@/components/GeometricBackground';
 import DynamicLayout from '@/components/DynamicLayout';
 
@@ -31,6 +33,8 @@ export default function ClientBusinessCard({ employee, projects }: ClientBusines
             <SocialMediaGrid employee={employee} />
             <VCardButton employee={employee} />
             <ProjectsGrid projects={projects} />
+            <AboutBST />
+            <ShareButtons employee={employee} />
           </div>
         </div>
       </div>

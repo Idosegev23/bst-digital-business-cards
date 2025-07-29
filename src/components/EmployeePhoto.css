@@ -1,31 +1,31 @@
 .employee-photo-container {
   position: relative;
-  margin-top: 2rem;
+  margin-top: 1rem;
   z-index: 10;
-  width: 85vw;
-  max-width: 85vw;
+  width: 64vw;
+  max-width: 64vw;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media (min-width: 768px) {
   .employee-photo-container {
-    width: 70vw;
-    max-width: 400px;
+    width: 53vw;
+    max-width: 300px;
   }
 }
 
 @media (min-width: 1024px) {
   .employee-photo-container {
-    width: 60vw;
-    max-width: 450px;
+    width: 45vw;
+    max-width: 340px;
   }
 }
 
 .employee-photo-wrapper {
   width: 100%;
   aspect-ratio: 4/3;
-  margin: 0 auto 1rem auto;
+  margin: 0 auto 0.5rem auto;
   position: relative;
 }
 

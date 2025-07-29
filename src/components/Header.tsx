@@ -5,7 +5,7 @@ export default function Header() {
     <header className="header">
       <div className="header-container">
         <img 
-          src="/logo.svg" 
+          src="/BST-LOGO-NEW.svg" 
           alt="BST Logo" 
           className="header-logo"
           onError={(e) => {

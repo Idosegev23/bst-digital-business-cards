@@ -3,15 +3,17 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  width: 100%;
-  padding: 1rem;
-  margin: 1.5rem 0;
+  width: auto;
+  min-width: 180px;
+  max-width: 220px;
+  padding: 0.75rem 1.5rem;
+  margin: 1rem auto;
   border: none;
   border-radius: 25px;
   background: var(--card-accent);
   color: white;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 0.9rem;
+  font-weight: 400;
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
@@ -43,7 +45,9 @@
 /* Responsive */
 @media (max-width: 640px) {
   .vcard-button {
-    font-size: 0.9rem;
-    padding: 0.875rem;
+    font-size: 0.85rem;
+    padding: 0.7rem 1.25rem;
+    min-width: 160px;
+    max-width: 200px;
   }
 } 

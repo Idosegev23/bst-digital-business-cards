@@ -20,13 +20,6 @@ export default function EmployeeInfo({ employee }: EmployeeInfoProps) {
       <p className="employee-title">
         {employee.supportsBilingual ? t(employee.title) : employee.title}
       </p>
-      
-      <div className="about-bst">
-        <h3 className="about-title">{t('aboutBST')}</h3>
-        <p className="about-text">
-          {t('bstDescription')}
-        </p>
-      </div>
     </div>
   )
 } 

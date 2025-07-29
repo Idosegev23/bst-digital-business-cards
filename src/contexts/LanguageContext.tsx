@@ -15,7 +15,7 @@ const translations: Translations = {
   phone: { he: 'טלפון', en: 'Phone' },
   office: { he: 'משרד', en: 'Office' },
   whatsapp: { he: 'וואטסאפ', en: 'WhatsApp' },
-  downloadVCard: { he: 'הורד כרטיס ביקור', en: 'Download VCard' },
+  downloadVCard: { he: '', en: 'Download VCard' },
   projects: { he: 'הפרויקטים שלנו', en: 'Our Projects' },
   contactInfo: { he: 'פרטי התקשרות', en: 'Contact Information' },
   socialMedia: { he: 'רשתות חברתיות', en: 'Social Media' },
@@ -30,6 +30,12 @@ const translations: Translations = {
     en: 'BST Group is a private real estate company operating for over 50 years in the fields of development, construction and real estate investments in Israel and abroad.' 
   },
   
+  // Share buttons
+  'שיתוף': { he: 'שיתוף', en: 'Share' },
+  'וואטסאפ': { he: 'וואטסאפ', en: 'WhatsApp' },
+  'מייל': { he: 'מייל', en: 'Email' },
+  'SMS': { he: 'SMS', en: 'SMS' },
+
   // Project translations
   'BSTOWERS פתח תקווה': { he: 'BSTOWERS פתח תקווה', en: 'BSTOWERS Petah Tikva' },
   'מערבה רחובות': { he: 'מערבה רחובות', en: 'Maarava Rehovot' },

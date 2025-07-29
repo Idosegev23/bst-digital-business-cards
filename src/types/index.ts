@@ -4,9 +4,9 @@ export interface Employee {
   title: string;
   photo: string;
   email: string;
-  phone?: string;
+  phone?: string | string[];
   whatsapp?: string;
-  office?: string;
+  department?: string;
   supportsBilingual?: boolean;
   socialMedia: {
     linkedin?: string;
