@@ -13,9 +13,9 @@
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 0.75rem;
-  height: 520px;
+  height: 420px;
 }
 
 /* Mobile responsive */
@@ -80,42 +80,174 @@
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* שורה 1: פרויקט רחב + פרויקט גבוה */
+/* שורה 1 עמודות 1,2: פתח תקווה - פרויקט רחב */
 .project-card:nth-child(1) { 
   grid-column: span 2;
   grid-row: span 1;
 }
 
+/* עמודה 3 שורות 1,2: רמברנדט - פרויקט גבוה */
 .project-card:nth-child(2) { 
   grid-column: span 1;
   grid-row: span 2;
 }
 
-/* שורה 2: פרויקט רגיל + מקום לפרויקט הגבוה */
+/* שורה 2 עמודות 1,2: מערבה רחובות - פרויקט רחב */
 .project-card:nth-child(3) { 
-  grid-column: span 1;
+  grid-column: span 2;
   grid-row: span 1;
 }
 
+/* עמודה 1, שורות 3,4: PRIME - פרויקט גבוה */
 .project-card:nth-child(4) { 
-  grid-column: span 1;
-  grid-row: span 1;
-}
-
-/* שורה 3: פרויקט גבוה + פרויקט רחב */
-.project-card:nth-child(5) { 
   grid-column: span 1;
   grid-row: span 2;
 }
 
-.project-card:nth-child(6) { 
+/* שורה 3, עמודות 2,3: קרית אתא - פרויקט רחב */
+.project-card:nth-child(5) { 
   grid-column: span 2;
   grid-row: span 1;
 }
 
-/* שורה 4: פרויקט רחב */
+/* שורה 4 עמודה 2: ליליאן - פרויקט רגיל */
+.project-card:nth-child(6) { 
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+/* שורה 4 עמודה 3: נצרת - פרויקט רגיל */
 .project-card:nth-child(7) { 
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+/* פריסת פרויקטים למחלקת בנייה - פריסה יפה ומסודרת */
+.projects-section[data-department="בנייה"] .projects-grid {
+  grid-template-rows: repeat(4, 1fr);
+  height: 520px;
+}
+
+/* שורה 1: אלוני ים (רחב) + קמפוס מזרחי (גבוה) */
+.projects-section[data-department="בנייה"] .project-card:nth-child(1) { 
   grid-column: span 2;
+  grid-row: span 1;
+}
+
+.projects-section[data-department="בנייה"] .project-card:nth-child(2) { 
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+/* שורה 2: מגדל לקסוס (רגיל) + מקום לקמפוס מזרחי */
+.projects-section[data-department="בנייה"] .project-card:nth-child(3) { 
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+/* שורה 3: מגדלי מתם (גבוה) + פארק תמר (רחב) */
+.projects-section[data-department="בנייה"] .project-card:nth-child(4) { 
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.projects-section[data-department="בנייה"] .project-card:nth-child(5) { 
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+/* שורה 4: פארק RBS + SIV PARK */
+.projects-section[data-department="בנייה"] .project-card:nth-child(6) { 
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.projects-section[data-department="בנייה"] .project-card:nth-child(7) { 
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+/* פריסת פרויקטים למחלקת BUILDUP - פריסה יפה ומסודרת */
+.projects-section[data-department="BUILDUP"] .projects-grid {
+  grid-template-rows: repeat(4, 1fr);
+  height: 520px;
+}
+
+/* שורה 1: Palo Alto (גבוה) + MalamTeam (רחב) */
+.projects-section[data-department="BUILDUP"] .project-card:nth-child(1) { 
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.projects-section[data-department="BUILDUP"] .project-card:nth-child(2) { 
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+/* שורה 2: Philips (רחב) + מקום ל-Palo Alto */
+.projects-section[data-department="BUILDUP"] .project-card:nth-child(3) { 
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+/* שורה 3: MeMed (רחב) + איילנד (גבוה) */
+.projects-section[data-department="BUILDUP"] .project-card:nth-child(4) { 
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.projects-section[data-department="BUILDUP"] .project-card:nth-child(5) { 
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+/* שורה 4: Bionic + Ryze */
+.projects-section[data-department="BUILDUP"] .project-card:nth-child(6) { 
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.projects-section[data-department="BUILDUP"] .project-card:nth-child(7) { 
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+/* פריסת פרויקטים למחלקת קנדה - פריסה מותאמת ל-6 פרויקטים */
+.projects-section[data-department="קנדה"] .projects-grid {
+  grid-template-rows: repeat(3, 1fr);
+  height: 420px;
+}
+
+/* שורה 1: Champagne Centre (רחב) + 108 Angeline (גבוה) */
+.projects-section[data-department="קנדה"] .project-card:nth-child(1) { 
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.projects-section[data-department="קנדה"] .project-card:nth-child(2) { 
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+/* שורה 2: Maebrook Roseglen (רחב) + מקום ל-108 Angeline */
+.projects-section[data-department="קנדה"] .project-card:nth-child(3) { 
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+/* שורה 3: Maebrook Scott + Maebrook Reve + Maebrook Rideau (גבוה) */
+.projects-section[data-department="קנדה"] .project-card:nth-child(4) { 
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.projects-section[data-department="קנדה"] .project-card:nth-child(5) { 
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.projects-section[data-department="קנדה"] .project-card:nth-child(6) { 
+  grid-column: span 1;
   grid-row: span 1;
 }
 
@@ -223,5 +355,370 @@
 @media (max-width: 767px) {
   .project-hover-overlay {
     display: none;
+  }
+}
+
+/* Management Projects Grid Styling - Clean Bento Style */
+.project-group {
+  margin-bottom: 2.5rem;
+}
+
+.project-group:last-child {
+  margin-bottom: 0;
+}
+
+.project-group-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--card-accent);
+  margin-bottom: 1.25rem;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  background: transparent;
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-group-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 2px;
+  background: var(--card-accent);
+  border-radius: 1px;
+}
+
+/* Bento Grid Layout - Dynamic patterns for each group */
+.project-group-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+  height: 240px;
+}
+
+/* Pattern 1: ייזום BST - Large square + wide + 2 small */
+.project-group:nth-child(2) .project-group-grid .project-card-management:nth-child(1) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.project-group:nth-child(2) .project-group-grid .project-card-management:nth-child(2) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.project-group:nth-child(2) .project-group-grid .project-card-management:nth-child(3) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.project-group:nth-child(2) .project-group-grid .project-card-management:nth-child(4) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+/* Pattern 2: בנייה BST - Two tall + two wide */
+.project-group:nth-child(3) .project-group-grid .project-card-management:nth-child(1) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.project-group:nth-child(3) .project-group-grid .project-card-management:nth-child(2) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.project-group:nth-child(3) .project-group-grid .project-card-management:nth-child(3) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.project-group:nth-child(3) .project-group-grid .project-card-management:nth-child(4) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+/* Pattern 3: BuildUp - Better distribution */
+.project-group:nth-child(4) .project-group-grid .project-card-management:nth-child(1) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.project-group:nth-child(4) .project-group-grid .project-card-management:nth-child(2) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.project-group:nth-child(4) .project-group-grid .project-card-management:nth-child(3) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.project-group:nth-child(4) .project-group-grid .project-card-management:nth-child(4) {
+  grid-column: span 3;
+  grid-row: span 1;
+}
+
+/* Pattern 4: BST Global - Full coverage */
+.project-group:nth-child(5) .project-group-grid .project-card-management:nth-child(1) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.project-group:nth-child(5) .project-group-grid .project-card-management:nth-child(2) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.project-group:nth-child(5) .project-group-grid .project-card-management:nth-child(3) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.project-group:nth-child(5) .project-group-grid .project-card-management:nth-child(4) {
+  grid-column: span 3;
+  grid-row: span 1;
+}
+
+.project-card-management {
+  height: auto;
+  min-height: 110px;
+  background: transparent;
+  border: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card-management:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15);
+}
+
+/* Enhanced styling for management cards */
+.project-card-management .project-name-overlay {
+  background: linear-gradient(135deg, 
+    rgba(60, 64, 54, 0.95) 0%, 
+    rgba(40, 44, 36, 0.98) 50%, 
+    rgba(60, 64, 54, 0.95) 100%);
+  backdrop-filter: blur(12px);
+}
+
+.project-card-management .project-name-content {
+  position: relative;
+  padding: 0.75rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.project-accent-line {
+  width: 30px;
+  height: 2px;
+  background: linear-gradient(90deg, #D9D8CC 0%, rgba(217, 216, 204, 0.5) 100%);
+  margin-top: 0.5rem;
+  border-radius: 1px;
+  animation: slideIn 0.6s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 30px;
+    opacity: 1;
+  }
+}
+
+.project-card-management .project-name-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.project-card-management .project-overlay-content {
+  padding: 0.75rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.project-card-management .project-overlay-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: white;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.project-card-management .project-overlay-description {
+  font-size: 0.7rem;
+  opacity: 0.9;
+  line-height: 1.3;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Mobile responsive for management - Simplified Bento */
+@media (max-width: 480px) {
+  .project-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-group-title {
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+    padding: 0.5rem 0.75rem;
+  }
+  
+  .project-group-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.75rem;
+    height: 200px;
+  }
+  
+  /* Mobile: Reset all specific patterns */
+  .project-group .project-group-grid .project-card-management {
+    grid-column: span 1 !important;
+    grid-row: span 1 !important;
+  }
+  
+  /* Mobile: First project takes full width */
+  .project-group .project-group-grid .project-card-management:nth-child(1) {
+    grid-column: span 2 !important;
+    grid-row: span 1 !important;
+  }
+  
+  .project-card-management {
+    min-height: 85px;
+  }
+  
+  .project-card-management .project-name-title {
+    font-size: 0.7rem;
+    -webkit-line-clamp: 1;
+  }
+  
+  .project-card-management .project-name-content {
+    padding: 0.5rem;
+  }
+}
+
+/* Tablet responsive for management */
+@media (min-width: 481px) and (max-width: 767px) {
+  .project-group {
+    margin-bottom: 2rem;
+  }
+  
+  .project-group-title {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.625rem 0.875rem;
+  }
+  
+  .project-group-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.875rem;
+    height: 220px;
+  }
+  
+  /* Tablet: Simplified patterns */
+  .project-group .project-group-grid .project-card-management {
+    grid-column: span 1 !important;
+    grid-row: span 1 !important;
+  }
+  
+  /* Tablet: First project is wide */
+  .project-group .project-group-grid .project-card-management:nth-child(1) {
+    grid-column: span 2 !important;
+    grid-row: span 1 !important;
+  }
+  
+  /* Tablet: Second project is tall */
+  .project-group .project-group-grid .project-card-management:nth-child(2) {
+    grid-column: span 1 !important;
+    grid-row: span 2 !important;
+  }
+  
+  .project-card-management {
+    min-height: 95px;
+  }
+  
+  .project-card-management .project-name-title {
+    font-size: 0.75rem;
+  }
+  
+  .project-card-management .project-overlay-title {
+    font-size: 0.8rem;
+  }
+}
+
+/* Desktop responsive for management - Full Bento */
+@media (min-width: 768px) {
+  .project-group {
+    margin-bottom: 3rem;
+  }
+  
+  .project-group-title {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.25rem;
+  }
+  
+  .project-group-grid {
+    gap: 1.25rem;
+    height: 280px;
+  }
+  
+  .project-card-management {
+    min-height: 130px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .project-group {
+    margin-bottom: 3.5rem;
+  }
+  
+  .project-group-title {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    padding: 1.25rem 1.5rem;
+  }
+  
+  .project-group-grid {
+    gap: 1.5rem;
+    height: 320px;
+  }
+  
+  .project-card-management {
+    min-height: 150px;
   }
 } 

@@ -17,6 +17,17 @@ const translations: Translations = {
   whatsapp: { he: 'וואטסאפ', en: 'WhatsApp' },
   downloadVCard: { he: 'להורדה לנייד', en: 'Download to Mobile' },
   projects: { he: 'הפרויקטים שלנו', en: 'Our Projects' },
+  'projects-ייזום': { he: 'פרויקטי יזום', en: 'Development Projects' },
+  'projects-בנייה': { he: 'פרויקטים נבחרים', en: 'Selected Projects' },
+  'projects-BUILDUP': { he: 'פרויקטים נבחרים', en: 'Selected Projects' },
+  'projects-קנדה': { he: 'פרויקטים נבחרים', en: 'Selected Projects' },
+  'projects-הנהלה': { he: 'פרויקטים נבחרים', en: 'Selected Projects' },
+  
+  // Management project group titles
+  'ייזום BST': { he: 'ייזום BST', en: 'BST Development' },
+  'בנייה BST': { he: 'בנייה BST', en: 'BST Construction' },
+  'BuildUp עבודות גמר': { he: 'BuildUp עבודות גמר', en: 'BuildUp Finishing Works' },
+  'BST Global': { he: 'BST Global', en: 'BST Global' },
   contactInfo: { he: 'פרטי התקשרות', en: 'Contact Information' },
   socialMedia: { he: 'רשתות חברתיות', en: 'Social Media' },
   homepage: { he: 'דף הבית', en: 'Homepage' },
@@ -35,12 +46,17 @@ const translations: Translations = {
   'וואטסאפ': { he: 'וואטסאפ', en: 'WhatsApp' },
   'מייל': { he: 'מייל', en: 'Email' },
   'SMS': { he: 'SMS', en: 'SMS' },
+  
+  // General UI elements
+  'מחלקה': { he: 'מחלקה', en: 'Department' },
+  'אודות': { he: 'אודות', en: 'About' },
+  'צור קשר': { he: 'צור קשר', en: 'Contact Us' },
 
   // Language toggle
   'switchToEnglish': { he: 'Switch to English', en: 'עבור לעברית' },
-  'languageCode': { he: 'EN', en: 'עב' },
+  'languageCode': { he: 'EN', en: 'HE' },
 
-  // Project translations
+  // Project translations - Initiation
   'BSTOWERS פתח תקווה': { he: 'BSTOWERS פתח תקווה', en: 'BSTOWERS Petah Tikva' },
   'מערבה רחובות': { he: 'מערבה רחובות', en: 'Maarava Rehovot' },
   'רמברנדט 30 תל אביב': { he: 'רמברנדט 30 תל אביב', en: 'Rembrandt 30 Tel Aviv' },
@@ -48,6 +64,67 @@ const translations: Translations = {
   'CREATE קרית אתא': { he: 'CREATE קרית אתא', en: 'CREATE Kiryat Ata' },
   'VIEW נצרת': { he: 'VIEW נצרת', en: 'VIEW Nazareth' },
   'PRIME נוף הגליל': { he: 'PRIME נוף הגליל', en: 'PRIME Nof HaGalil' },
+  
+  // Project translations - Construction
+  'אלוני ים הרצליה': { he: 'אלוני ים הרצליה', en: 'Aloney Yam Herzliya' },
+  'קמפוס מזרחי טפחות לוד': { he: 'קמפוס מזרחי טפחות לוד', en: 'Mizrahi Tefahot Campus Lod' },
+  'מגדל לקסוס': { he: 'מגדל לקסוס', en: 'Lexus Tower' },
+  'מגדלי מתם שלב ג\' חיפה': { he: 'מגדלי מתם שלב ג\' חיפה', en: 'Matam Towers Phase C Haifa' },
+  'פארק תמר רחובות': { he: 'פארק תמר רחובות', en: 'Tamar Park Rehovot' },
+  'פארק RBS': { he: 'פארק RBS', en: 'RBS Park' },
+  'SIV PARK פתח תקווה': { he: 'SIV PARK פתח תקווה', en: 'SIV PARK Petah Tikva' },
+  
+  // Project translations - BUILDUP
+  'Palo Alto Networks': { he: 'Palo Alto Networks', en: 'Palo Alto Networks' },
+  'MalamTeam': { he: 'MalamTeam', en: 'MalamTeam' },
+  'Philips': { he: 'Philips', en: 'Philips' },
+  'MeMed': { he: 'MeMed', en: 'MeMed' },
+  'איילנד טכנולוגיה': { he: 'איילנד טכנולוגיה', en: 'Island Technology' },
+  'Bionic': { he: 'Bionic', en: 'Bionic' },
+  'Ryze': { he: 'Ryze', en: 'Ryze' },
+  
+  // Project translations - Canada
+  'Champagne Centre': { he: 'Champagne Centre', en: 'Champagne Centre' },
+  '108 Angeline Street': { he: '108 Angeline Street', en: '108 Angeline Street' },
+  'Maebrook Roseglen': { he: 'Maebrook Roseglen', en: 'Maebrook Roseglen' },
+  'Maebrook Scott': { he: 'Maebrook Scott', en: 'Maebrook Scott' },
+  'Maebrook Reve': { he: 'Maebrook Reve', en: 'Maebrook Reve' },
+  'Maebrook Rideau': { he: 'Maebrook Rideau', en: 'Maebrook Rideau' },
+  
+  // Project descriptions - Initiation
+  'פרויקט מגורים יוקרתי בפתח תקווה': { he: 'פרויקט מגורים יוקרתי בפתח תקווה', en: 'Luxury residential project in Petah Tikva' },
+  'פרויקט מגורים מתקדם ברחובות': { he: 'פרויקט מגורים מתקדם ברחובות', en: 'Advanced residential project in Rehovot' },
+  'פרויקט בוטיק יוקרתי בלב תל אביב': { he: 'פרויקט בוטיק יוקרתי בלב תל אביב', en: 'Luxury boutique project in the heart of Tel Aviv' },
+  'פרויקט יוקרה בנוף הגליל': { he: 'פרויקט יוקרה בנוף הגליל', en: 'Luxury project in Nof HaGalil' },
+  'פרויקט מגורים חדשני בקרית אתא': { he: 'פרויקט מגורים חדשני בקרית אתא', en: 'Innovative residential project in Kiryat Ata' },
+  'פרויקט מגורים מתקדם בתל אביב': { he: 'פרויקט מגורים מתקדם בתל אביב', en: 'Advanced residential project in Tel Aviv' },
+  'פרויקט מגורים מודרני בנצרת': { he: 'פרויקט מגורים מודרני בנצרת', en: 'Modern residential project in Nazareth' },
+  
+  // Project descriptions - Construction
+  'פרויקט בנייה מתקדם בהרצליה': { he: 'פרויקט בנייה מתקדם בהרצליה', en: 'Advanced construction project in Herzliya' },
+  'פרויקט קמפוס חדשני בלוד': { he: 'פרויקט קמפוס חדשני בלוד', en: 'Innovative campus project in Lod' },
+  'מגדל יוקרה מתקדם': { he: 'מגדל יוקרה מתקדם', en: 'Advanced luxury tower' },
+  'פרויקט מגורים מתקדם בחיפה': { he: 'פרויקט מגורים מתקדם בחיפה', en: 'Advanced residential project in Haifa' },
+  'פרויקט מגורים ברחובות': { he: 'פרויקט מגורים ברחובות', en: 'Residential project in Rehovot' },
+  'פרויקט מגורים חדשני': { he: 'פרויקט מגורים חדשני', en: 'Innovative residential project' },
+  'פרויקט בנייה בפתח תקווה': { he: 'פרויקט בנייה בפתח תקווה', en: 'Construction project in Petah Tikva' },
+  
+  // Project descriptions - BUILDUP
+  'משרדי היי-טק מתקדמים': { he: 'משרדי היי-טק מתקדמים', en: 'Advanced high-tech offices' },
+  'פרויקט משרדים חדשני': { he: 'פרויקט משרדים חדשני', en: 'Innovative office project' },
+  'משרדי חברת פיליפס': { he: 'משרדי חברת פיליפס', en: 'Philips company offices' },
+  'משרדי חברת MeMed': { he: 'משרדי חברת MeMed', en: 'MeMed company offices' },
+  'משרדי חברת איילנד טכנולוגיה': { he: 'משרדי חברת איילנד טכנולוגיה', en: 'Island Technology company offices' },
+  'משרדי חברת Bionic': { he: 'משרדי חברת Bionic', en: 'Bionic company offices' },
+  'משרדי חברת Ryze': { he: 'משרדי חברת Ryze', en: 'Ryze company offices' },
+  
+  // Project descriptions - Canada
+  'פרויקט מגורים יוקרתי בקנדה': { he: 'פרויקט מגורים יוקרתי בקנדה', en: 'Luxury residential project in Canada' },
+  'פרויקט מגורים מתקדם': { he: 'פרויקט מגורים מתקדם', en: 'Advanced residential project' },
+  'פרויקט Maebrook Roseglen': { he: 'פרויקט Maebrook Roseglen', en: 'Maebrook Roseglen project' },
+  'פרויקט Maebrook Scott': { he: 'פרויקט Maebrook Scott', en: 'Maebrook Scott project' },
+  'פרויקט Maebrook Reve': { he: 'פרויקט Maebrook Reve', en: 'Maebrook Reve project' },
+  'פרויקט Maebrook Rideau': { he: 'פרויקט Maebrook Rideau', en: 'Maebrook Rideau project' },
   
   // Employee names and titles - bilingual employees
   'עלא טנוס': { he: 'עלא טנוס', en: 'Alaa Tannous' },

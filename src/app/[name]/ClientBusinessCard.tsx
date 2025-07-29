@@ -1,6 +1,6 @@
 'use client';
 
-import { Employee, Project } from '@/types';
+import { Employee, Project, ProjectGroup } from '@/types';
 import Header from '@/components/Header';
 import LanguageToggle from '@/components/LanguageToggle';
 import EmployeePhoto from '@/components/EmployeePhoto';
@@ -8,6 +8,7 @@ import EmployeeInfo from '@/components/EmployeeInfo';
 import SocialMediaGrid from '@/components/SocialMediaGrid';
 import VCardButton from '@/components/VCardButton';
 import ProjectsGrid from '@/components/ProjectsGrid';
+import ManagementProjectsGrid from '@/components/ManagementProjectsGrid';
 import AboutBST from '@/components/AboutBST';
 import ShareButtons from '@/components/ShareButtons';
 import GeometricBackground from '@/components/GeometricBackground';
@@ -15,10 +16,11 @@ import DynamicLayout from '@/components/DynamicLayout';
 
 interface ClientBusinessCardProps {
   employee: Employee;
-  projects: Project[];
+  projects: Project[] | null;
+  managementProjects?: ProjectGroup[];
 }
 
-export default function ClientBusinessCard({ employee, projects }: ClientBusinessCardProps) {
+export default function ClientBusinessCard({ employee, projects, managementProjects }: ClientBusinessCardProps) {
   return (
     <DynamicLayout>
       <div className="min-h-screen bg-gray-100">
@@ -32,7 +34,11 @@ export default function ClientBusinessCard({ employee, projects }: ClientBusines
             <EmployeeInfo employee={employee} />
             <SocialMediaGrid employee={employee} />
             <VCardButton employee={employee} />
-            <ProjectsGrid projects={projects} />
+            {managementProjects ? (
+              <ManagementProjectsGrid projectGroups={managementProjects} />
+            ) : projects && (
+              <ProjectsGrid projects={projects} department={employee.department} />
+            )}
             <AboutBST />
             <ShareButtons employee={employee} />
           </div>

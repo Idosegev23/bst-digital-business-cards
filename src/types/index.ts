@@ -26,6 +26,11 @@ export interface Project {
   link: string;
 }
 
+export interface ProjectGroup {
+  titleKey: string;
+  projects: Project[];
+}
+
 export interface Language {
   code: 'he' | 'en';
   name: string;

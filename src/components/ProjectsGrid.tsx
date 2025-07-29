@@ -7,9 +7,10 @@ import { Project } from '@/types'
 
 interface ProjectsGridProps {
   projects: Project[]
+  department?: string
 }
 
-export default function ProjectsGrid({ projects }: ProjectsGridProps) {
+export default function ProjectsGrid({ projects, department }: ProjectsGridProps) {
   const [hoveredProject, setHoveredProject] = useState<number | null>(null)
   const { t } = useLanguage()
 
@@ -27,8 +28,8 @@ export default function ProjectsGrid({ projects }: ProjectsGridProps) {
   ]
 
   return (
-    <div className="projects-section">
-      <h2 className="projects-title">{t('projects')}</h2>
+    <div className="projects-section" data-department={department}>
+      <h2 className="projects-title">{t(department ? `projects-${department}` : 'projects')}</h2>
       <div className="projects-grid">
         {projects.map((project, index) => (
           <div

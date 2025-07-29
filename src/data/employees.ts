@@ -13,7 +13,7 @@ export const employees: Employee[] = [
     supportsBilingual: true,
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -26,7 +26,7 @@ export const employees: Employee[] = [
     department: 'הנהלה',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -40,7 +40,7 @@ export const employees: Employee[] = [
     supportsBilingual: true,
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -53,7 +53,7 @@ export const employees: Employee[] = [
     department: 'הנהלה',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -66,7 +66,7 @@ export const employees: Employee[] = [
     department: 'הנהלה',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -80,7 +80,7 @@ export const employees: Employee[] = [
     supportsBilingual: true,
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -93,7 +93,7 @@ export const employees: Employee[] = [
     department: 'הנהלה',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -106,7 +106,7 @@ export const employees: Employee[] = [
     department: 'הנהלה',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -119,7 +119,7 @@ export const employees: Employee[] = [
     department: 'הנהלה',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -132,7 +132,7 @@ export const employees: Employee[] = [
     department: 'הנהלה',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -146,7 +146,7 @@ export const employees: Employee[] = [
     supportsBilingual: true,
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -159,7 +159,7 @@ export const employees: Employee[] = [
     department: 'הנהלה',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -173,7 +173,7 @@ export const employees: Employee[] = [
     supportsBilingual: true,
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -186,7 +186,7 @@ export const employees: Employee[] = [
     department: 'הנהלה',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -200,7 +200,7 @@ export const employees: Employee[] = [
     supportsBilingual: true,
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
 
@@ -216,7 +216,7 @@ export const employees: Employee[] = [
     supportsBilingual: true,
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -229,7 +229,7 @@ export const employees: Employee[] = [
     department: 'ייזום',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -242,7 +242,7 @@ export const employees: Employee[] = [
     department: 'ייזום',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -255,7 +255,7 @@ export const employees: Employee[] = [
     department: 'ייזום',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
   {
@@ -268,7 +268,7 @@ export const employees: Employee[] = [
     department: 'ייזום',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il'
     }
   },
 
@@ -283,7 +283,7 @@ export const employees: Employee[] = [
     department: 'בנייה',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il/bst-construction/under-construction/'
     }
   },
   {
@@ -296,7 +296,7 @@ export const employees: Employee[] = [
     department: 'בנייה',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il/bst-construction/under-construction/'
     }
   },
   {
@@ -310,7 +310,7 @@ export const employees: Employee[] = [
     supportsBilingual: true,
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il/bst-construction/under-construction/'
     }
   },
   {
@@ -323,7 +323,7 @@ export const employees: Employee[] = [
     department: 'בנייה',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il/bst-construction/under-construction/'
     }
   },
 
@@ -339,7 +339,7 @@ export const employees: Employee[] = [
     supportsBilingual: true,
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il/bst-buildup/'
     }
   },
   {
@@ -352,7 +352,7 @@ export const employees: Employee[] = [
     department: 'BUILDUP',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il/bst-buildup/'
     }
   },
   {
@@ -365,7 +365,7 @@ export const employees: Employee[] = [
     department: 'BUILDUP',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bst.co.il/bst-buildup/'
     }
   },
 
@@ -381,7 +381,7 @@ export const employees: Employee[] = [
     supportsBilingual: true,
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bstcanada.com/'
     }
   },
   {
@@ -395,7 +395,7 @@ export const employees: Employee[] = [
     supportsBilingual: true,
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il/'
+      website: 'https://bstcanada.com/'
     }
   }
 ]; 

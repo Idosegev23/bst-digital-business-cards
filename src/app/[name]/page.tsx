@@ -1,6 +1,10 @@
 import { notFound } from 'next/navigation';
 import { employees } from '@/data/employees';
-import { projects } from '@/data/projects';
+import { projects as initiationProjects } from '@/data/initiation-projects';
+import { constructionProjects } from '@/data/construction-projects';
+import { buildupProjects } from '@/data/buildup-projects';
+import { canadaProjects } from '@/data/canada-projects';
+import { managementProjects } from '@/data/management-projects';
 import ClientBusinessCard from './ClientBusinessCard';
 import type { Metadata } from 'next';
 
@@ -39,5 +43,28 @@ export default function BusinessCardPage({ params }: PageProps) {
     notFound();
   }
 
-  return <ClientBusinessCard employee={employee} projects={projects} />;
+  // בחירת פרויקטים לפי מחלקה
+  const getProjectsByDepartment = (department: string) => {
+    switch (department) {
+      case 'בנייה':
+        return constructionProjects;
+      case 'BUILDUP':
+        return buildupProjects;
+      case 'קנדה':
+        return canadaProjects;
+      case 'הנהלה':
+        return null; // ההנהלה תקבל טיפול מיוחד
+      case 'ייזום':
+      default:
+        return initiationProjects;
+    }
+  };
+
+  const projects = getProjectsByDepartment(employee.department || 'ייזום');
+
+  return <ClientBusinessCard 
+    employee={employee} 
+    projects={projects}
+    managementProjects={(employee.department || '') === 'הנהלה' ? managementProjects : undefined}
+  />;
 } 
