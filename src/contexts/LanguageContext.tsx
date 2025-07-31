@@ -43,6 +43,7 @@ const translations: Translations = {
   
   // Share buttons
   'שיתוף': { he: 'שיתוף', en: 'Share' },
+  'לשיתוף': { he: 'לשיתוף', en: 'For Sharing' },
   'וואטסאפ': { he: 'וואטסאפ', en: 'WhatsApp' },
   'מייל': { he: 'מייל', en: 'Email' },
   'SMS': { he: 'SMS', en: 'SMS' },
