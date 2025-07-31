@@ -15,6 +15,7 @@ export interface Employee {
     youtube?: string;
     website?: string;
     tiktok?: string;
+    whatsapp?: string;
   };
 }
 
