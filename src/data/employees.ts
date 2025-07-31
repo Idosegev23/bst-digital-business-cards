@@ -390,7 +390,7 @@ export const employees: Employee[] = [
     title: 'CEO BST England',
     photo: '/employees/placeholder.svg',
     email: 'GuyH@bst.co.il',
-    phone: ['052-5800070', '+44-7385-840647'],
+    phone: ['052 5800070', '+44 7385 840647'],
     department: 'קנדה',
     supportsBilingual: true,
     socialMedia: {

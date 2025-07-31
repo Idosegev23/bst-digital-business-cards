@@ -11,6 +11,20 @@
 }
 
 .employee-title {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: rgba(60, 64, 54, 0.8);
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+  .employee-title {
+    font-size: 1.25rem;
+  }
+}
+
+/* Tablet responsive */
+@media (min-width: 481px) and (max-width: 768px) {
+  .employee-title {
+    font-size: 1.375rem;
+  }
 } 
