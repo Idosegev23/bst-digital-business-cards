@@ -13,7 +13,7 @@ interface VCardButtonProps {
 export default function VCardButton({ employee }: VCardButtonProps) {
   const { t } = useLanguage();
 
-  const getCompanyName = (department: string): string => {
+  const getCompanyName = (department: string | undefined): string => {
     switch (department) {
       case 'הנהלה':
         return 'BST';
