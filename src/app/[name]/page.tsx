@@ -25,14 +25,14 @@ export function generateMetadata({ params }: PageProps): Metadata {
   
   if (!employee) {
     return {
-      title: 'Employee Not Found - BST Global',
+      title: 'עובד לא נמצא - קבוצת BST',
       description: 'The requested employee page could not be found.',
     };
   }
 
   return {
-    title: `${employee.name} - ${employee.title} | BST Global`,
-    description: `כרטיס ביקור דיגיטלי של ${employee.name}, ${employee.title} ב-BST Global`,
+    title: `${employee.name} - ${employee.title} | קבוצת BST`,
+    description: `כרטיס ביקור דיגיטלי של ${employee.name}, ${employee.title} בקבוצת BST`,
   };
 }
 

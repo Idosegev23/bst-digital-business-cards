@@ -3,8 +3,8 @@ import './globals.css'
 import { LanguageProvider } from '@/contexts/LanguageContext'
 
 export const metadata: Metadata = {
-  title: 'BST Global - כרטיסי ביקור דיגיטליים',
-  description: 'כרטיסי ביקור דיגיטליים של צוות BST Global',
+  title: 'קבוצת BST - כרטיסי ביקור דיגיטליים',
+  description: 'כרטיסי ביקור דיגיטליים של צוות קבוצת BST',
 }
 
 export const viewport: Viewport = {

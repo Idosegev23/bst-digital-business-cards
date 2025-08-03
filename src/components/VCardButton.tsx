@@ -13,13 +13,30 @@ interface VCardButtonProps {
 export default function VCardButton({ employee }: VCardButtonProps) {
   const { t } = useLanguage();
 
+  const getCompanyName = (department: string): string => {
+    switch (department) {
+      case 'הנהלה':
+        return 'BST';
+      case 'ייזום':
+        return 'BST ייזום';
+      case 'בנייה':
+        return 'BST בנייה';
+      case 'BUILDUP':
+        return 'BUILDUP';
+      case 'קנדה':
+        return 'BST GLOBAL';
+      default:
+        return 'BST';
+    }
+  };
+
   const generateVCard = () => {
     const vcard = [
       'BEGIN:VCARD',
       'VERSION:3.0',
       `FN:${employee.name}`,
       `TITLE:${employee.title}`,
-      `ORG:BST Global`,
+      `ORG:${getCompanyName(employee.department)}`,
       `EMAIL:${employee.email}`,
       employee.phone ? `TEL;TYPE=WORK:${Array.isArray(employee.phone) ? employee.phone[0] : employee.phone}` : '',
       Array.isArray(employee.phone) && employee.phone[1] ? `TEL;TYPE=OFFICE:${employee.phone[1]}` : '',

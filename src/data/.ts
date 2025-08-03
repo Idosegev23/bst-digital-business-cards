@@ -221,7 +221,7 @@ export const employees: Employee[] = [
   },
   {
     id: 'eitan-sadan',
-    name: 'איתן שדן',
+    name: 'איתן סדן',
     title: 'סמנכ"ל התחדשות עירונית',
     photo: '/employees/eitan-sadan.jpg',
     email: 'EitanSa@bst.co.il',

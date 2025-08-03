@@ -38,7 +38,7 @@ const translations: Translations = {
   'aboutBST': { he: 'אודות BST:', en: 'About BST:' },
   'bstDescription': { 
     he: 'קבוצת BST הינה קבוצת נדל"ן פרטית הפועלת כבר למעלה מ-50 שנה בתחומי יזמות, בניה והשקעות נדל"ן בארץ ובחו"ל.', 
-    en: 'BST Group is a private real estate company operating for over 50 years in the fields of development, construction and real estate investments in Israel and abroad.' 
+    en: 'BST is a private real estate company operating for over 50 years in the fields of development, construction and real estate investments in Israel and abroad.' 
   },
   
   // Share buttons

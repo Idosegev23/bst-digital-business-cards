@@ -18,7 +18,7 @@ export default function HomePage() {
       <div className="homepage-content">
         <div className="homepage-title">
           <h1>{t('ourTeam')}</h1>
-          <p>BST Global</p>
+          <p>קבוצת BST</p>
         </div>
 
         <div className="employees-grid">

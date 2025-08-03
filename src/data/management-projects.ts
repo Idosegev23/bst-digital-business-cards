@@ -66,10 +66,10 @@ export const managementProjects: ProjectGroup[] = [
       },
       {
         id: 8,
-        nameKey: "מגדל לקסוס",
-        descriptionKey: "מגדל יוקרה מתקדם",
-        image: "/build_projects/lexus.webp",
-        link: "https://bst.co.il/project/%d7%9e%d7%92%d7%93%d7%9c-%d7%9c%d7%a7%d7%a1%d7%95%d7%a1/"
+        nameKey: "RBS בית שמש",
+        descriptionKey: "פרויקט מגורים חדשני בבית שמש",
+        image: "/build_projects/beit-shemesh.jpg",
+        link: "https://bst.co.il/project/rbs-beit-shemesh/"
       }
     ]
   },
