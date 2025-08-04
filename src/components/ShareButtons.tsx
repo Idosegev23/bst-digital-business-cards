@@ -21,9 +21,9 @@ export default function ShareButtons({ employee }: ShareButtonsProps) {
   const shareText = `${employeeName} - ${employeeTitle}\nקבוצת BST\n${currentUrl}`;
   const encodedText = encodeURIComponent(shareText);
   
-  // מספר טלפון לוואטסאפ (הראשון מהרשימה)
+  // מספר טלפון לוואטסאפ (הראשון מהרשימה) - עם קידומת 972
   const phoneNumber = Array.isArray(employee.phone) ? employee.phone[0] : employee.phone;
-  const cleanPhone = phoneNumber?.replace(/[^0-9]/g, '') || '';
+  const cleanPhone = phoneNumber?.replace(/[^0-9]/g, '').replace(/^0/, '972') || '';
 
   return (
     <div className="share-buttons-container">
