@@ -3,7 +3,7 @@
 }
 
 .projects-title {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: var(--card-accent);
   margin-bottom: 0.75rem;
@@ -66,7 +66,7 @@
   }
   
   .projects-title {
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin-bottom: 1.5rem;
   }
   
@@ -82,7 +82,7 @@
   }
   
   .projects-title {
-    font-size: 2.25rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
   }
   
@@ -399,7 +399,7 @@
 }
 
 .project-group-title {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: var(--card-accent);
   margin-bottom: 0.75rem;
