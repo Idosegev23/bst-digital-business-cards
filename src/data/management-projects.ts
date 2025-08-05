@@ -35,7 +35,7 @@ export const managementProjects: ProjectGroup[] = [
         id: 4,
         nameKey: "CREATE קרית אתא",
         descriptionKey: "פרויקט מגורים חדשני בקרית אתא",
-        image: "/project4.jpg",
+        image: "/project5.jpg",
         link: "https://bst.co.il/project/create-calaniot/"
       }
     ]
