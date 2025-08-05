@@ -17,7 +17,7 @@ const translations: Translations = {
   whatsapp: { he: 'וואטסאפ', en: 'WhatsApp' },
   downloadVCard: { he: 'להורדה לנייד', en: 'Download to Mobile' },
   projects: { he: 'הפרויקטים שלנו', en: 'Our Projects' },
-  'projects-ייזום': { he: 'פרויקטי יזום', en: 'Development Projects' },
+  'projects-ייזום': { he: 'פרויקטים נבחרים', en: 'Selected Projects' },
   'projects-בנייה': { he: 'פרויקטים נבחרים', en: 'Selected Projects' },
   'projects-BUILDUP': { he: 'פרויקטים נבחרים', en: 'Selected Projects' },
   'projects-קנדה': { he: 'פרויקטים נבחרים', en: 'Selected Projects' },

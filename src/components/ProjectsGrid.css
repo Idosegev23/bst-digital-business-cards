@@ -192,43 +192,43 @@
   grid-row: span 1;
 }
 
-/* פריסת פרויקטים למחלקת BUILDUP - פאלו אלטו למעלה, איילנד ו-MeMed גבוהים */
+/* פריסת פרויקטים למחלקת BUILDUP - פריסה נקייה ומסודרת */
 .projects-section[data-department="BUILDUP"] .projects-grid {
-  grid-template-rows: repeat(4, 1fr);
-  height: 520px;
+  grid-template-rows: repeat(3, 1fr);
+  height: 480px;
+  gap: 0.75rem;
 }
 
-/* שורה 1: Palo Alto (רחב למעלה - הכי בולט) */
+/* שורה 1: Palo Alto (רחב עליון - הכי בולט) */
 .projects-section[data-department="BUILDUP"] .project-card:nth-child(1) { 
   grid-column: span 3;
   grid-row: span 1;
 }
 
-/* שורה 2: MalamTeam (רחב) + MeMed (גבוה) */
+/* שורה 2: Global E + כאן תאגיד השידור + MalamTeam */
 .projects-section[data-department="BUILDUP"] .project-card:nth-child(2) { 
-  grid-column: span 2;
+  grid-column: span 1;
   grid-row: span 1;
 }
 
 .projects-section[data-department="BUILDUP"] .project-card:nth-child(3) { 
   grid-column: span 1;
-  grid-row: span 2;
-}
-
-/* שורה 3: איילנד (גבוה) + כאן תאגיד השידור (רחב) */
-.projects-section[data-department="BUILDUP"] .project-card:nth-child(4) { 
-  grid-column: span 1;
-  grid-row: span 2;
-}
-
-.projects-section[data-department="BUILDUP"] .project-card:nth-child(5) { 
-  grid-column: span 2;
   grid-row: span 1;
 }
 
-/* שורה 4: Global E (רחב) */
+.projects-section[data-department="BUILDUP"] .project-card:nth-child(4) { 
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+/* אם יש פרויקטים נוספים - שורה שלישית */
+.projects-section[data-department="BUILDUP"] .project-card:nth-child(5) { 
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
 .projects-section[data-department="BUILDUP"] .project-card:nth-child(6) { 
-  grid-column: span 2;
+  grid-column: span 1;
   grid-row: span 1;
 }
 
@@ -259,19 +259,35 @@
   padding: 0.8rem !important;
 }
 
-/* עיצוב מיוחד לפאלו אלטו - הכי בולט */
+/* עיצוב מיוחד לפאלו אלטו - הכי בולט בשורה העליונה */
 .projects-section[data-department="BUILDUP"] .project-card:nth-child(1) .project-name-title {
-  font-size: 1.1rem !important;
+  font-size: 1.0rem !important;
   font-weight: 800 !important;
 }
 
 .projects-section[data-department="BUILDUP"] .project-card:nth-child(1) .project-name-overlay {
-  height: 35% !important;
+  height: 30% !important;
   background: linear-gradient(135deg, 
     rgba(0, 0, 0, 0.9) 0%,
     rgba(10, 10, 10, 0.85) 50%,
     rgba(0, 0, 0, 0.9) 100%
   ) !important;
+}
+
+/* עיצוב מסודר למובייל - BUILDUP */
+@media (max-width: 480px) {
+  .projects-section[data-department="BUILDUP"] .projects-grid {
+    height: 520px;
+    gap: 0.5rem;
+  }
+  
+  .projects-section[data-department="BUILDUP"] .project-name-title {
+    font-size: 0.8rem !important;
+  }
+  
+  .projects-section[data-department="BUILDUP"] .project-card:nth-child(1) .project-name-title {
+    font-size: 0.9rem !important;
+  }
 }
 
 /* פריסת פרויקטים למחלקת קנדה - פריסה מותאמת ל-6 פרויקטים */
