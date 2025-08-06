@@ -4,24 +4,65 @@
 }
 
 .employee-name {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: var(--card-accent);
   margin-bottom: 0.5rem;
 }
 
 .employee-title {
-  font-size: 1.75rem;
+  font-size: 1.8rem;
   color: rgba(60, 64, 54, 0.8);
+  margin-bottom: 0.25rem;
+}
+
+.employee-company {
+  font-size: 1.4rem;
+  color: rgba(60, 64, 54, 0.7);
+  font-weight: 500;
+}
+
+/* הגדלת תפקידים למחלקות ספציפיות (מלבד הנהלה) */
+.employee-info[data-department="ייזום"] .employee-title,
+.employee-info[data-department="בנייה"] .employee-title,
+.employee-info[data-department="BUILDUP"] .employee-title,
+.employee-info[data-department="קנדה"] .employee-title {
+  font-size: 2.1rem;
+}
+
+.employee-info[data-department="ייזום"] .employee-company,
+.employee-info[data-department="בנייה"] .employee-company,
+.employee-info[data-department="BUILDUP"] .employee-company,
+.employee-info[data-department="קנדה"] .employee-company {
+  font-size: 1.6rem;
 }
 
 /* Mobile responsive */
 @media (max-width: 480px) {
   .employee-name {
-    font-size: 1.9rem;
+    font-size: 2.2rem;
   }
   
   .employee-title {
+    font-size: 1.5rem;
+  }
+  
+  .employee-company {
+    font-size: 1.2rem;
+  }
+  
+  /* הגדלת תפקידים למחלקות ספציפיות (מלבד הנהלה) - מובייל */
+  .employee-info[data-department="ייזום"] .employee-title,
+  .employee-info[data-department="בנייה"] .employee-title,
+  .employee-info[data-department="BUILDUP"] .employee-title,
+  .employee-info[data-department="קנדה"] .employee-title {
+    font-size: 1.8rem;
+  }
+
+  .employee-info[data-department="ייזום"] .employee-company,
+  .employee-info[data-department="בנייה"] .employee-company,
+  .employee-info[data-department="BUILDUP"] .employee-company,
+  .employee-info[data-department="קנדה"] .employee-company {
     font-size: 1.4rem;
   }
 }
@@ -29,10 +70,29 @@
 /* Tablet responsive */
 @media (min-width: 481px) and (max-width: 768px) {
   .employee-name {
-    font-size: 2.1rem;
+    font-size: 2.4rem;
   }
   
   .employee-title {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
+  }
+  
+  .employee-company {
+    font-size: 1.3rem;
+  }
+  
+  /* הגדלת תפקידים למחלקות ספציפיות (מלבד הנהלה) - טאבלט */
+  .employee-info[data-department="ייזום"] .employee-title,
+  .employee-info[data-department="בנייה"] .employee-title,
+  .employee-info[data-department="BUILDUP"] .employee-title,
+  .employee-info[data-department="קנדה"] .employee-title {
+    font-size: 2rem;
+  }
+
+  .employee-info[data-department="ייזום"] .employee-company,
+  .employee-info[data-department="בנייה"] .employee-company,
+  .employee-info[data-department="BUILDUP"] .employee-company,
+  .employee-info[data-department="קנדה"] .employee-company {
+    font-size: 1.5rem;
   }
 } 

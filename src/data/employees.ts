@@ -151,7 +151,7 @@ export const employees: Employee[] = [
   },
   {
     id: 'sivan-halali',
-    name: 'סיוון הללי',
+    name: 'סיוון הילל',
     title: 'סמנכ"לית מכירות ושיווק',
     photo: '/employees/sivan-halali.jpg',
     email: 'SivanH@bst.co.il',
