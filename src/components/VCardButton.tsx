@@ -18,9 +18,9 @@ export default function VCardButton({ employee }: VCardButtonProps) {
       case 'הנהלה':
         return 'BST';
       case 'ייזום':
-        return 'BST ייזום';
+        return t('BST ייזום');
       case 'בנייה':
-        return 'BST בנייה';
+        return t('BST בנייה');
       case 'BUILDUP':
         return 'BUILDUP';
       case 'קנדה':
@@ -31,11 +31,15 @@ export default function VCardButton({ employee }: VCardButtonProps) {
   };
 
   const generateVCard = () => {
+    // שימוש בתרגום נכון בהתאם לשפה הנוכחית
+    const employeeName = employee.supportsBilingual ? t(employee.name) : employee.name;
+    const employeeTitle = employee.supportsBilingual ? t(employee.title) : employee.title;
+    
     const vcard = [
       'BEGIN:VCARD',
       'VERSION:3.0',
-      `FN:${employee.name}`,
-      `TITLE:${employee.title}`,
+      `FN:${employeeName}`,
+      `TITLE:${employeeTitle}`,
       `ORG:${getCompanyName(employee.department)}`,
       `EMAIL:${employee.email}`,
       employee.phone ? `TEL;TYPE=WORK:${Array.isArray(employee.phone) ? employee.phone[0] : employee.phone}` : '',
@@ -49,7 +53,7 @@ export default function VCardButton({ employee }: VCardButtonProps) {
     
     const link = document.createElement('a');
     link.href = url;
-    link.download = `${employee.name.replace(/\s+/g, '_')}.vcf`;
+    link.download = `${employeeName.replace(/\s+/g, '_')}.vcf`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

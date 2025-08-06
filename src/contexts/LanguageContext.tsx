@@ -159,7 +159,11 @@ const translations: Translations = {
   'סמנכ"ל נכסים': { he: 'סמנכ"ל נכסים', en: 'Deputy CEO Real Estate' },
   
   'גדיר טנוס': { he: 'גדיר טנוס', en: 'Ghadir Tannous' },
-  'מנהלת תחום חוזים והתקשרויות': { he: 'מנהלת תחום חוזים והתקשרויות', en: 'Contracts & Procurement Manager' }
+  'מנהלת תחום חוזים והתקשרויות': { he: 'מנהלת תחום חוזים והתקשרויות', en: 'Contracts & Procurement Manager' },
+  
+  // Company departments
+  'BST ייזום': { he: 'BST ייזום', en: 'BST Development' },
+  'BST בנייה': { he: 'BST בנייה', en: 'BST Construction' }
 };
 
 interface LanguageContextType {
@@ -170,8 +174,42 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
+// פונקציה לזיהוי המיקום הגיאוגרפי וקביעת השפה הראשונית
+const detectUserLanguage = (): Language => {
+  // ניסיון לזהות מיקום בישראל
+  try {
+    // בדיקת timezone
+    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    const israelTimezones = ['Asia/Jerusalem', 'Asia/Tel_Aviv', 'Asia/Gaza', 'Asia/Hebron'];
+    
+    if (israelTimezones.includes(timezone)) {
+      return languages[0]; // עברית
+    }
+    
+    // בדיקת browser locale
+    const userLocale = navigator.language || navigator.languages?.[0];
+    if (userLocale?.startsWith('he')) {
+      return languages[0]; // עברית
+    }
+    
+    // בדיקת שפות נוספות של הדפדפן
+    const userLanguages = navigator.languages || [navigator.language];
+    const hasHebrew = userLanguages.some(lang => lang.startsWith('he'));
+    
+    if (hasHebrew) {
+      return languages[0]; // עברית
+    }
+    
+  } catch (error) {
+    console.log('Could not detect user location, defaulting to English');
+  }
+  
+  // ברירת מחדל - אנגלית (אם לא בישראל)
+  return languages[1];
+};
+
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [currentLanguage, setCurrentLanguage] = useState<Language>(languages[0]);
+  const [currentLanguage, setCurrentLanguage] = useState<Language>(detectUserLanguage());
 
   const toggleLanguage = () => {
     setCurrentLanguage(prev => 

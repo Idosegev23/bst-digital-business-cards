@@ -3,7 +3,7 @@
 }
 
 .projects-title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
   color: var(--card-accent);
   margin-bottom: 0.75rem;
@@ -66,7 +66,7 @@
   }
   
   .projects-title {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     margin-bottom: 1.5rem;
   }
   
@@ -82,7 +82,7 @@
   }
   
   .projects-title {
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-bottom: 2rem;
   }
   
@@ -411,6 +411,15 @@
   overflow: hidden;
 }
 
+/* גודל פונט מיוחד לקבוצות ספציפיות */
+.project-group:nth-child(1) .project-group-title {
+  font-size: 0.9rem; /* ייזום BST - פונט גדול יותר */
+}
+
+.project-group:nth-child(3) .project-group-title {
+  font-size: 0.7rem; /* BuildUp עבודות גמר - פונט קטן יותר */
+}
+
 /* Removed the line under group titles */
 
 /* Simple Grid Layout - Clean and aligned */
@@ -577,6 +586,15 @@
     padding: 0.5rem 0.625rem;
   }
   
+  /* גודל פונט מיוחד לקבוצות ספציפיות - טאבלט */
+  .project-group:nth-child(1) .project-group-title {
+    font-size: 1rem; /* ייזום BST - פונט גדול יותר */
+  }
+  
+  .project-group:nth-child(3) .project-group-title {
+    font-size: 0.8rem; /* BuildUp עבודות גמר - פונט קטן יותר */
+  }
+  
   /* Simple tablet grid - 2x2 layout */
   .project-group-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -615,6 +633,15 @@
     padding: 0.625rem 0.875rem;
   }
   
+  /* גודל פונט מיוחד לקבוצות ספציפיות - דסקטופ */
+  .project-group:nth-child(1) .project-group-title {
+    font-size: 1.1rem; /* ייזום BST - פונט גדול יותר */
+  }
+  
+  .project-group:nth-child(3) .project-group-title {
+    font-size: 0.9rem; /* BuildUp עבודות גמר - פונט קטן יותר */
+  }
+  
   .project-group-grid {
     gap: 0.125rem;
     height: auto;
@@ -640,6 +667,15 @@
     font-size: 1.1rem;
     margin-bottom: 1.25rem;
     padding: 0.75rem 1rem;
+  }
+  
+  /* גודל פונט מיוחד לקבוצות ספציפיות - דסקטופ גדול */
+  .project-group:nth-child(1) .project-group-title {
+    font-size: 1.2rem; /* ייזום BST - פונט גדול יותר */
+  }
+  
+  .project-group:nth-child(3) .project-group-title {
+    font-size: 1rem; /* BuildUp עבודות גמר - פונט קטן יותר */
   }
   
   .project-group-grid {
