@@ -32,21 +32,57 @@ export default function VCardButton({ employee }: VCardButtonProps) {
 
   const generateVCard = () => {
     // שימוש בתרגום נכון בהתאם לשפה הנוכחית
-    const employeeName = employee.supportsBilingual ? t(employee.name) : employee.name;
-    const employeeTitle = employee.supportsBilingual ? t(employee.title) : employee.title;
+    let employeeName = employee.name;
+    let employeeTitle = employee.title;
+    
+    // אם העובד תומך בדו-לשוניות, ננסה לתרגם
+    if (employee.supportsBilingual) {
+      const translatedName = t(employee.name);
+      const translatedTitle = t(employee.title);
+      
+      // רק אם התרגום שונה מהמקור (כלומר קיים תרגום) נשתמש בו
+      if (translatedName !== employee.name) {
+        employeeName = translatedName;
+      }
+      if (translatedTitle !== employee.title) {
+        employeeTitle = translatedTitle;
+      }
+    }
+    
+    const companyName = getCompanyName(employee.department);
+    
+    // Debug - בדיקה מה בדיוק נשמר
+    console.log('VCard Data:', {
+      originalName: employee.name,
+      finalName: employeeName,
+      originalTitle: employee.title, 
+      finalTitle: employeeTitle,
+      company: companyName,
+      supportsBilingual: employee.supportsBilingual
+    });
+    
+    // פיצול השם לשם פרטי ומשפחה (אם יש רווח)
+    const nameParts = employeeName.split(' ');
+    const firstName = nameParts[0] || '';
+    const lastName = nameParts.slice(1).join(' ') || '';
     
     const vcard = [
       'BEGIN:VCARD',
       'VERSION:3.0',
+      `N:${lastName};${firstName};;;`,
       `FN:${employeeName}`,
-      `TITLE:${employeeTitle}`,
-      `ORG:${getCompanyName(employee.department)}`,
-      `EMAIL:${employee.email}`,
+      `NICKNAME:${firstName}`,
       employee.phone ? `TEL;TYPE=WORK:${Array.isArray(employee.phone) ? employee.phone[0] : employee.phone}` : '',
       Array.isArray(employee.phone) && employee.phone[1] ? `TEL;TYPE=OFFICE:${employee.phone[1]}` : '',
+      `EMAIL:${employee.email}`,
+      `TITLE:${employeeTitle}`,
+      `ORG:${companyName}`,
       employee.socialMedia.website ? `URL:${employee.socialMedia.website}` : '',
       'END:VCARD'
     ].filter(line => line).join('\r\n');
+    
+    // Debug - הדפסת ה-VCard המלא
+    console.log('Generated VCard:', vcard);
 
     const blob = new Blob([vcard], { type: 'text/vcard' });
     const url = window.URL.createObjectURL(blob);
