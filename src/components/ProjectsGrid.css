@@ -205,7 +205,7 @@
   grid-row: span 1;
 }
 
-/* שורה 2: Global E + כאן תאגיד השידור + MalamTeam */
+/* שורה 2: MalamTeam + MeMed + איילנד טכנולוגיה */
 .projects-section[data-department="BUILDUP"] .project-card:nth-child(2) { 
   grid-column: span 1;
   grid-row: span 1;
@@ -221,14 +221,14 @@
   grid-row: span 1;
 }
 
-/* אם יש פרויקטים נוספים - שורה שלישית */
+/* שורה 3: כאן תאגיד השידור + Global E (רחב - 2 עמודות) */
 .projects-section[data-department="BUILDUP"] .project-card:nth-child(5) { 
   grid-column: span 1;
   grid-row: span 1;
 }
 
 .projects-section[data-department="BUILDUP"] .project-card:nth-child(6) { 
-  grid-column: span 1;
+  grid-column: span 2;
   grid-row: span 1;
 }
 
