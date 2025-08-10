@@ -56,7 +56,7 @@ digital-business-cards/
 - אמיר מרציאנו (מנהל חטיבת נדל"ן) - `/amir-marciano`
 - אסף שמעון (מנהל פרויקטים) - `/assaf-simon`
 - עינת שחר יציב (מנהלת שיווק) - `/einat-shachar-yatziv`
-- איתן שדן (מנהל פיתוח) - `/eitan-sadan`
+- איתן  (מנהל פיתוח) - `/eitan-sadan`
 - אליאס טנוס (סמנכ"ל פיתוח) - `/elias-tannous`
 - ערן קונפינו (מנהל מכירות) - `/eran-confino`
 - גאדיר טנוס (מנהלת משאבי אנוש) - `/ghadir-tannous`

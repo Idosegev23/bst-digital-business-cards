@@ -150,8 +150,8 @@ export const employees: Employee[] = [
     }
   },
   {
-    id: 'sivan-halali',
-    name: 'סיוון הילל',
+    id: 'sivan-hileli; ',
+    name: 'סיוון היללי',
     title: 'סמנכ"לית מכירות ושיווק',
     photo: '/employees/sivan-halali.jpg',
     email: 'SivanH@bst.co.il',
@@ -221,7 +221,7 @@ export const employees: Employee[] = [
   },
   {
     id: 'eitan-sadan',
-    name: 'איתן שדן',
+    name: 'איתן סדן',
     title: 'סמנכ"ל התחדשות עירונית',
     photo: '/employees/eitan-sadan.jpg',
     email: 'EitanSa@bst.co.il',
