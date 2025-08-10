@@ -150,7 +150,7 @@ export const employees: Employee[] = [
     }
   },
   {
-    id: 'sivan-hileli; ',
+    id: 'sivan-hileli',
     name: 'סיוון היללי',
     title: 'סמנכ"לית מכירות ושיווק',
     photo: '/employees/sivan-halali.jpg',
