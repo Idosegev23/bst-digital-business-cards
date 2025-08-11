@@ -143,8 +143,8 @@ const translations: Translations = {
   'אורנה שגב': { he: 'אורנה שגב', en: 'Orna Segev' },
   'סמנכ"ל מטה וחברה': { he: 'סמנכ"ל מטה וחברה', en: 'Deputy CEO Operations & Company' },
   
-  'ערן קונפינו': { he: 'ערן קונפינו', en: 'Eran Confino' },
-  'משנה למנכ"ל': { he: 'משנה למנכ"ל', en: 'Deputy CEO' },
+  'ערן קונפינו': { he: 'ערן קונפינו', en: 'Eran Konfino' },
+  'משנה למנכ"ל': { he: 'משנה למנכ"ל', en: 'Deputy CEO BST Group' },
   
   'גיא הלפרין': { he: 'גיא הלפרין', en: 'Guy Halperin' },
   'CEO BST England': { he: 'CEO BST England', en: 'CEO BST England' },
