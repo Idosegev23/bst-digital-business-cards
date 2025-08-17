@@ -401,7 +401,7 @@ export const employees: Employee[] = [
   {
     id: 'linoy-benyamini',
     name: 'לינוי בנימיני',
-    title: 'עוזרת אישית למנכ"ל - קבוצת BST, מנכ"ל תפעול - קרן עווה ובאדי טנוס (ע"ר)',
+    title: 'עוזרת אישית למנכ"ל - קבוצת BST, מנכ"ל תפעול - קרן אווה ובדיע טנוס (ז"ל)',
     photo: '/employees/placeholder.svg',
     email: 'linoyb@bst.co.il',
     phone: '054-8161941',
