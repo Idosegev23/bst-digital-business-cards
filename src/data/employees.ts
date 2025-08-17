@@ -356,8 +356,8 @@ export const employees: Employee[] = [
     }
   },
   {
-    id: 'yonatan-gosher',
-    name: 'יונתן גושר',
+    id: 'yonatan-groscher',
+    name: 'יונתן גרושר',
     title: 'סמנכ"ל תפעול, BUILDUP',
     photo: '/employees/yonatan-gosher.jpg',
     email: 'JonatanG@buildup-eng.com',
@@ -396,6 +396,34 @@ export const employees: Employee[] = [
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',
       website: 'https://bstcanada.com/'
+    }
+  },
+  {
+    id: 'linoy-benyamini',
+    name: 'לינוי בנימיני',
+    title: 'עוזרת אישית למנכ"ל',
+    photo: '/employees/placeholder.svg',
+    email: 'linoyb@bst.co.il',
+    phone: '054-8161941',
+    department: 'הנהלה',
+    supportsBilingual: true,
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/company/bstgroup',
+      website: 'https://bst.co.il'
+    }
+  },
+  {
+    id: 'micha-goldman',
+    name: 'מיכה גולדמן',
+    title: 'קבוצת BST',
+    photo: '/employees/placeholder.svg',
+    email: 'michag@bst.co.il',
+    phone: '054-4214066',
+    department: 'הנהלה',
+    supportsBilingual: true,
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/company/bstgroup',
+      website: 'https://bst.co.il'
     }
   }
 ];

@@ -161,6 +161,12 @@ const translations: Translations = {
   'גדיר טנוס': { he: 'גדיר טנוס', en: 'Ghadir Tannous' },
   'מנהלת תחום חוזים והתקשרויות': { he: 'מנהלת תחום חוזים והתקשרויות', en: 'Contracts & Procurement Manager' },
   
+  'לינוי בנימיני': { he: 'לינוי בנימיני', en: 'Linoy Benyamini' },
+  'עוזרת אישית למנכ"ל': { he: 'עוזרת אישית למנכ"ל', en: 'Personal Assistant to CEO' },
+  
+  'מיכה גולדמן': { he: 'מיכה גולדמן', en: 'Micha Goldman' },
+  'קבוצת BST': { he: 'קבוצת BST', en: 'BST Group' },
+  
   // Company departments
   'BST ייזום': { he: 'BST ייזום', en: 'BST Development' },
   'BST בנייה': { he: 'BST בנייה', en: 'BST Construction' }
