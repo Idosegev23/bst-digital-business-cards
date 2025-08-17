@@ -162,7 +162,10 @@ const translations: Translations = {
   'מנהלת תחום חוזים והתקשרויות': { he: 'מנהלת תחום חוזים והתקשרויות', en: 'Contracts & Procurement Manager' },
   
   'לינוי בנימיני': { he: 'לינוי בנימיני', en: 'Linoy Benyamini' },
-  'עוזרת אישית למנכ"ל': { he: 'עוזרת אישית למנכ"ל', en: 'Personal Assistant to CEO' },
+  'עוזרת אישית למנכ"ל - קבוצת BST, מנכ"ל תפעול - קרן עווה ובאדי טנוס (ע"ר)': { 
+    he: 'עוזרת אישית למנכ"ל - קבוצת BST, מנכ"ל תפעול - קרן עווה ובאדי טנוס (ע"ר)', 
+    en: 'PA to CEO - BST Group, COO - Eva & Badi Tannous Foundation (RA)' 
+  },
   
   'מיכה גולדמן': { he: 'מיכה גולדמן', en: 'Micha Goldman' },
   'קבוצת BST': { he: 'קבוצת BST', en: 'BST Group' },
