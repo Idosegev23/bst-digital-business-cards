@@ -178,7 +178,7 @@ export const employees: Employee[] = [
   },
   {
     id: 'yaki-angel',
-    name: 'יקי אנג\'ל',
+    name: 'יקי אנגל',
     title: 'בקר איכות',
     photo: '/employees/yaki-angel.jpg',
     email: 'YakiE@bst.co.il',
