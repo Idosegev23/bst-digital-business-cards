@@ -105,6 +105,18 @@
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
+/* פריסת גריד למחלקת ייזום - נועל 3x3 */
+.projects-section[data-department="ייזום"] .projects-grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+/* פריסת פרויקטים למחלקת ייזום - פריסה אחידה (ללא Bento) */
+.projects-section[data-department="ייזום"] .project-card {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
 /* שורה 1 עמודות 1,2: פתח תקווה - פרויקט רחב */
 .project-card:nth-child(1) { 
   grid-column: span 2;
