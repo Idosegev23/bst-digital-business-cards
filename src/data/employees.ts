@@ -123,19 +123,6 @@ export const employees: Employee[] = [
     }
   },
   {
-    id: 'lilach-grimberg',
-    name: 'לילך גרימברג',
-    title: 'סמנכ"לית ויועצת משפטית',
-    photo: '/employees/lilach-grimberg.jpg',
-    email: 'LilachG@bst.co.il',
-    phone: '052-3665729',
-    department: 'הנהלה',
-    socialMedia: {
-      linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il'
-    }
-  },
-  {
     id: 'rafi-bisker',
     name: 'רפי ביסקר',
     title: 'יו"ר הקבוצה',
@@ -226,19 +213,6 @@ export const employees: Employee[] = [
     photo: '/employees/eitan-sadan.jpg',
     email: 'EitanSa@bst.co.il',
     phone: '054-6735559',
-    department: 'ייזום',
-    socialMedia: {
-      linkedin: 'https://www.linkedin.com/company/bstgroup',
-      website: 'https://bst.co.il'
-    }
-  },
-  {
-    id: 'micha-ben-nun',
-    name: 'מיכה בן נון',
-    title: 'סמנכ"ל הנדסה, BST ייזום',
-    photo: '/employees/micha-ben-nun.jpg',
-    email: 'michab@bst.co.il',
-    phone: '054-6305050',
     department: 'ייזום',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/company/bstgroup',

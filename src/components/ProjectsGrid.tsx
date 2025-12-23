@@ -23,7 +23,7 @@ export default function ProjectsGrid({ projects, department }: ProjectsGridProps
       const fullName = t(project.nameKey)
       
       // רשימת הערים הידועות בפרויקטים
-      const cities = ['פתח תקווה', 'תל אביב', 'רחובות', 'נוף הגליל', 'קרית אתא', 'נצרת', 'ליליאן'];
+      const cities = ['פתח תקווה', 'תל אביב', 'רחובות', 'נוף הגליל', 'קרית אתא', 'נצרת', 'נתניה', 'כפר סבא', 'ליליאן'];
       
       // נחפש עיר שמופיעה בשם הפרויקט
       const foundCity = cities.find(city => fullName.includes(city));

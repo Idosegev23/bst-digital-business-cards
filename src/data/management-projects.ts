@@ -37,6 +37,20 @@ export const managementProjects: ProjectGroup[] = [
         descriptionKey: "פרויקט מגורים חדשני בקרית אתא",
         image: "/project5.jpg",
         link: "https://bst.co.il/project/create-calaniot/"
+      },
+      {
+        id: 17,
+        nameKey: "נתניה, חבצלת",
+        descriptionKey: "פרויקט מגורים בנתניה",
+        image: "/project8.jpg",
+        link: "https://bst.co.il/project/%d7%97%d7%91%d7%a6%d7%9c%d7%aa-%d7%94%d7%a9%d7%a8%d7%95%d7%9f/"
+      },
+      {
+        id: 18,
+        nameKey: "כפר סבא",
+        descriptionKey: "פרויקט מגורים בכפר סבא",
+        image: "/project9.jpg",
+        link: "https://bst.co.il/project/%d7%92%d7%90%d7%95%d7%9c%d7%94-%d7%9b%d7%a4%d7%a8-%d7%a1%d7%91%d7%90/"
       }
     ]
   },

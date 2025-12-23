@@ -65,6 +65,8 @@ const translations: Translations = {
   'CREATE קרית אתא': { he: 'CREATE קרית אתא', en: 'CREATE Kiryat Ata' },
   'VIEW נצרת': { he: 'VIEW נצרת', en: 'VIEW Nazareth' },
   'PRIME נוף הגליל': { he: 'PRIME נוף הגליל', en: 'PRIME Nof HaGalil' },
+  'נתניה, חבצלת': { he: 'נתניה, חבצלת', en: 'Netanya, Havatzelet' },
+  'כפר סבא': { he: 'כפר סבא', en: 'Kfar Saba' },
   
   // Project translations - Construction
   'אלוני ים הרצליה': { he: 'אלוני ים הרצליה', en: 'Aloney Yam Herzliya' },
@@ -100,6 +102,8 @@ const translations: Translations = {
   'פרויקט מגורים חדשני בקרית אתא': { he: 'פרויקט מגורים חדשני בקרית אתא', en: 'Innovative residential project in Kiryat Ata' },
   'פרויקט מגורים מתקדם בתל אביב': { he: 'פרויקט מגורים מתקדם בתל אביב', en: 'Advanced residential project in Tel Aviv' },
   'פרויקט מגורים מודרני בנצרת': { he: 'פרויקט מגורים מודרני בנצרת', en: 'Modern residential project in Nazareth' },
+  'פרויקט מגורים בנתניה': { he: 'פרויקט מגורים בנתניה', en: 'Residential project in Netanya' },
+  'פרויקט מגורים בכפר סבא': { he: 'פרויקט מגורים בכפר סבא', en: 'Residential project in Kfar Saba' },
   
   // Project descriptions - Construction
   'פרויקט בנייה מתקדם בהרצליה': { he: 'פרויקט בנייה מתקדם בהרצליה', en: 'Advanced construction project in Herzliya' },
