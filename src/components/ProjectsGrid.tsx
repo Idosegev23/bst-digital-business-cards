@@ -46,21 +46,37 @@ export default function ProjectsGrid({ projects, department }: ProjectsGridProps
     '25px 0 25px 0',    // פינה שמאלית תחתונה (חזרה)
   ]
 
+  // עבור ייזום: פינה אחת חדה רנדומלית (דטרמיניסטי לפי מזהה הפרויקט)
+  const getInitiationImageBorderRadius = (project: Project) => {
+    const options = [
+      '16px 0 16px 16px', // ימין-עליון חד
+      '0 16px 16px 16px', // שמאל-עליון חד
+      '16px 16px 16px 0', // ימין-תחתון חד
+      '16px 16px 0 16px', // שמאל-תחתון חד
+    ]
+    const seed = typeof project.id === 'number' ? project.id : 0
+    return options[seed % options.length]
+  }
+
   return (
     <div className="projects-section" data-department={department}>
       <h2 className="projects-title">{t(department ? `projects-${department}` : 'projects')}</h2>
       <div className="projects-grid">
         {projects.map((project, index) => {
-          const borderRadius = isUniformInitiationLayout
+          const cardBorderRadius = isUniformInitiationLayout
             ? '16px'
             : borderRadiusOptions[index % borderRadiusOptions.length]
+
+          const imageBorderRadius = isUniformInitiationLayout
+            ? getInitiationImageBorderRadius(project)
+            : cardBorderRadius
 
           return (
             <div
               key={project.id}
               className="project-card"
               style={{
-                borderRadius
+                borderRadius: cardBorderRadius
               }}
               onMouseEnter={() => setHoveredProject(project.id)}
               onMouseLeave={() => setHoveredProject(null)}
@@ -69,7 +85,7 @@ export default function ProjectsGrid({ projects, department }: ProjectsGridProps
               <div 
                 className="project-image-container"
                 style={{
-                  borderRadius
+                  borderRadius: imageBorderRadius
                 }}
               >
                 <img 
@@ -81,19 +97,15 @@ export default function ProjectsGrid({ projects, department }: ProjectsGridProps
                     target.src = defaultProjectImage;
                   }}
                 />
-              </div>
-              
-              {/* Mobile overlay - always visible with glassmorphism */}
-              <div 
-                className="project-name-overlay"
-                style={{
-                  borderRadius
-                }}
-              >
-                <div className="project-name-content">
-                  <h3 className="project-name-title">{getDisplayName(project)}</h3>
+
+                {/* Mobile overlay - always visible with glassmorphism */}
+                <div className="project-name-overlay">
+                  <div className="project-name-content">
+                    <h3 className="project-name-title">{getDisplayName(project)}</h3>
+                  </div>
                 </div>
               </div>
+              
             </div>
           )
         })}
