@@ -46,16 +46,34 @@ export default function ProjectsGrid({ projects, department }: ProjectsGridProps
     '25px 0 25px 0',    // פינה שמאלית תחתונה (חזרה)
   ]
 
-  // עבור ייזום: פינה אחת חדה רנדומלית (דטרמיניסטי לפי מזהה הפרויקט)
-  const getInitiationImageBorderRadius = (project: Project) => {
-    const options = [
-      '16px 0 16px 16px', // ימין-עליון חד
-      '0 16px 16px 16px', // שמאל-עליון חד
-      '16px 16px 16px 0', // ימין-תחתון חד
-      '16px 16px 0 16px', // שמאל-תחתון חד
+  // עבור ייזום: פינה אחת חדה "מסודרת" לפי מיקום בגריד 3x3 (חוזר על עצמו כל 9 פרויקטים)
+  type SharpCorner = 'tl' | 'tr' | 'br' | 'bl'
+  const getInitiationSharpCornerByIndex = (index: number): SharpCorner => {
+    const pattern: SharpCorner[][] = [
+      ['tl', 'tr', 'tl'],
+      ['br', 'tl', 'br'],
+      ['bl', 'tr', 'bl'],
     ]
-    const seed = typeof project.id === 'number' ? project.id : 0
-    return options[seed % options.length]
+
+    const i = ((index % 9) + 9) % 9
+    const row = Math.floor(i / 3)
+    const col = i % 3
+    return pattern[row][col]
+  }
+
+  const getInitiationBorderRadius = (index: number) => {
+    const r = 16
+    const corner = getInitiationSharpCornerByIndex(index)
+    switch (corner) {
+      case 'tl':
+        return `0 ${r}px ${r}px ${r}px`
+      case 'tr':
+        return `${r}px 0 ${r}px ${r}px`
+      case 'br':
+        return `${r}px ${r}px 0 ${r}px`
+      case 'bl':
+        return `${r}px ${r}px ${r}px 0`
+    }
   }
 
   return (
@@ -64,11 +82,11 @@ export default function ProjectsGrid({ projects, department }: ProjectsGridProps
       <div className="projects-grid">
         {projects.map((project, index) => {
           const cardBorderRadius = isUniformInitiationLayout
-            ? '16px'
+            ? getInitiationBorderRadius(index)
             : borderRadiusOptions[index % borderRadiusOptions.length]
 
           const imageBorderRadius = isUniformInitiationLayout
-            ? getInitiationImageBorderRadius(project)
+            ? cardBorderRadius
             : cardBorderRadius
 
           return (

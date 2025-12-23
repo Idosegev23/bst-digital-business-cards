@@ -115,7 +115,7 @@
 .projects-section[data-department="ייזום"] .project-card {
   grid-column: span 1;
   grid-row: span 1;
-  padding: 0.5rem; /* כדי שהרדיוס של התמונה לא ייחתך ע"י רדיוס הכרטיס */
+  padding: 0; /* הכרטיס והתמונה באותה צורה */
 }
 
 /* שורה 1 עמודות 1,2: פתח תקווה - פרויקט רחב */
